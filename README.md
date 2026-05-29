@@ -1,9 +1,7 @@
 # APEX — Intelligent Shopping Advisor
-### Elite Multi-Agent AI System | GEN-AI Assignment 2 | UCP
+### Elite Multi-Agent AI System | GEN-AI 
 
-> **Author:** Ahmad Yasin | **University:** University of Central Punjab (UCP) | **Semester:** 8th  
-> **Course:** Generative AI | **Assignment:** 2 — Intelligent Shopping Advisor
-
+> **Author:** Ahmad Yasin | **Email:** Ahmad.Yasin@nexariza.com
 ---
 
 ## Project Overview
