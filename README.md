@@ -16,7 +16,7 @@ APEX is a **production-grade Intelligent Shopping Advisor** built with a hierarc
 
 ---
 
-## Assignment Requirements Fulfillment
+## Requirements Fulfillment
 
 | Requirement | Status | Implementation |
 |---|---|---|
@@ -214,23 +214,6 @@ Set environment variables in Railway dashboard:
 # Set env vars in Render dashboard
 ```
 
-### ❌ Not Recommended: PythonAnywhere
-
-| Reason | Detail |
-|---|---|
-| No WebSocket | Free/Hacker tier does not support WebSocket connections |
-| Memory limit | SentenceTransformers + FAISS requires ~1.5GB RAM (PythonAnywhere free = 512MB) |
-| FAISS install | C extension compilation often fails on shared hosting |
-
-### ❌ Not Recommended: Vercel
-
-| Reason | Detail |
-|---|---|
-| Serverless | No persistent memory (FAISS index must reload every request) |
-| No WebSocket | Vercel functions are stateless HTTP only |
-| Timeout | 10s max function timeout; pipeline takes 20–60s |
-| Python limits | No C extension support in serverless functions |
-
 ### Docker (Self-hosted / Any VPS)
 
 ```bash
@@ -311,6 +294,3 @@ Assignement 2/
 ## Author
 
 **Ahmad Yasin**  
-8th Semester — Generative AI  
-University of Central Punjab (UCP)  
-GEN-AI Assignment 2
