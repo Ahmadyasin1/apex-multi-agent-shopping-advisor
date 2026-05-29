@@ -1,0 +1,955 @@
+[
+  {
+    "id": "L001",
+    "name": "Apple MacBook Pro 16\" M3 Max",
+    "category": "laptop",
+    "brand": "Apple",
+    "price": 3499.00,
+    "rating": 4.9,
+    "specs": {
+      "ram": "36GB Unified Memory",
+      "storage": "1TB SSD",
+      "processor": "Apple M3 Max (16-core CPU)",
+      "display": "16.2\" Liquid Retina XDR 120Hz",
+      "battery": "22 hours",
+      "weight": "2.14 kg",
+      "gpu": "40-core GPU"
+    },
+    "features": ["M3 Max Chip", "ProMotion 120Hz Display", "Liquid Retina XDR", "MagSafe 3 Charging", "Thunderbolt 4 Ports", "Neural Engine AI"],
+    "description": "The pinnacle of laptop engineering. The MacBook Pro 16 with M3 Max delivers extraordinary performance for AI workloads, 3D rendering, and video production with up to 22 hours battery life.",
+    "ideal_for": ["AI developer", "video editor", "3D artist", "professional", "creator", "heavy workload"]
+  },
+  {
+    "id": "L002",
+    "name": "Dell XPS 15 OLED",
+    "category": "laptop",
+    "brand": "Dell",
+    "price": 2199.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "32GB DDR5",
+      "storage": "1TB NVMe SSD",
+      "processor": "Intel Core i9-13900H",
+      "display": "15.6\" 3.5K OLED 60Hz",
+      "battery": "13 hours",
+      "weight": "1.86 kg",
+      "gpu": "NVIDIA RTX 4060"
+    },
+    "features": ["OLED InfinityEdge Display", "RTX 4060 GPU", "Thunderbolt 4", "IR Camera", "SD Card Reader"],
+    "description": "Premium thin-and-light powerhouse with a breathtaking OLED display. Perfect for professionals who demand both portability and performance.",
+    "ideal_for": ["professional", "developer", "content creator", "business user"]
+  },
+  {
+    "id": "L003",
+    "name": "ASUS ROG Zephyrus G14",
+    "category": "laptop",
+    "brand": "ASUS",
+    "price": 1699.00,
+    "rating": 4.8,
+    "specs": {
+      "ram": "32GB DDR5",
+      "storage": "1TB SSD",
+      "processor": "AMD Ryzen 9 7940HS",
+      "display": "14\" QHD+ 165Hz",
+      "battery": "10 hours",
+      "weight": "1.65 kg",
+      "gpu": "NVIDIA RTX 4090 Laptop"
+    },
+    "features": ["RTX 4090 Mobile", "165Hz QHD+ Display", "AniMe Matrix LED Lid", "Dolby Atmos Audio", "ROG Boost Technology"],
+    "description": "The most powerful compact gaming laptop ever made. Packs desktop-class RTX 4090 into an ultra-portable 14\" chassis with jaw-dropping performance.",
+    "ideal_for": ["gamer", "gaming", "content creator", "streamer", "3D rendering"]
+  },
+  {
+    "id": "L004",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "category": "laptop",
+    "brand": "Lenovo",
+    "price": 1849.00,
+    "rating": 4.6,
+    "specs": {
+      "ram": "16GB LPDDR5",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i7-1365U",
+      "display": "14\" 2.8K OLED 120Hz",
+      "battery": "15 hours",
+      "weight": "1.12 kg",
+      "gpu": "Intel Iris Xe"
+    },
+    "features": ["MIL-SPEC Durability", "OLED Display", "Business Security Suite", "LTE Optional", "4 Thunderbolt 4 Ports"],
+    "description": "The gold standard in business laptops. Legendary ThinkPad durability meets modern elegance in the world's lightest business laptop at 1.12kg.",
+    "ideal_for": ["business professional", "enterprise user", "traveler", "executive"]
+  },
+  {
+    "id": "L005",
+    "name": "HP Spectre x360 14",
+    "category": "laptop",
+    "brand": "HP",
+    "price": 1599.00,
+    "rating": 4.5,
+    "specs": {
+      "ram": "16GB LPDDR5",
+      "storage": "1TB SSD",
+      "processor": "Intel Core i7-1355U",
+      "display": "14\" 2.8K OLED Touch 120Hz",
+      "battery": "17 hours",
+      "weight": "1.47 kg",
+      "gpu": "Intel Iris Xe"
+    },
+    "features": ["360-degree OLED Touchscreen", "Active Pen Included", "HP Sure View Privacy Screen", "Bang & Olufsen Audio", "Thunderbolt 4"],
+    "description": "The luxury 2-in-1 convertible with stunning OLED touch display. Perfect for creative professionals who need versatility with premium style.",
+    "ideal_for": ["creative professional", "student", "designer", "2-in-1 user", "artist"]
+  },
+  {
+    "id": "L006",
+    "name": "Acer Swift 3 Slim",
+    "category": "laptop",
+    "brand": "Acer",
+    "price": 649.00,
+    "rating": 4.2,
+    "specs": {
+      "ram": "8GB LPDDR5",
+      "storage": "512GB SSD",
+      "processor": "AMD Ryzen 5 7530U",
+      "display": "14\" FHD IPS 60Hz",
+      "battery": "12 hours",
+      "weight": "1.25 kg",
+      "gpu": "AMD Radeon Graphics"
+    },
+    "features": ["Lightweight Design", "Fast Charging", "Backlit Keyboard", "Fingerprint Reader", "USB-C Charging"],
+    "description": "Elegant ultra-slim laptop that packs impressive performance into a lightweight chassis. Ideal for students and everyday professionals on a budget.",
+    "ideal_for": ["student", "everyday user", "budget conscious", "college student"]
+  },
+  {
+    "id": "L007",
+    "name": "Microsoft Surface Laptop 5",
+    "category": "laptop",
+    "brand": "Microsoft",
+    "price": 1299.00,
+    "rating": 4.4,
+    "specs": {
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i7-1265U",
+      "display": "13.5\" PixelSense 2256x1504",
+      "battery": "18 hours",
+      "weight": "1.27 kg",
+      "gpu": "Intel Iris Xe"
+    },
+    "features": ["PixelSense Display", "Alcantara Keyboard", "Slim Bezel Design", "Windows 11 Pro", "Thunderbolt 4"],
+    "description": "Microsoft's most refined laptop with premium Alcantara palm rest, stunning PixelSense display, and all-day battery life in a slim package.",
+    "ideal_for": ["professional", "office worker", "student", "Windows user"]
+  },
+  {
+    "id": "L008",
+    "name": "Razer Blade 16",
+    "category": "laptop",
+    "brand": "Razer",
+    "price": 3999.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "32GB DDR5",
+      "storage": "2TB SSD",
+      "processor": "Intel Core i9-13950HX",
+      "display": "16\" QHD+ Mini-LED 240Hz",
+      "battery": "8 hours",
+      "weight": "2.18 kg",
+      "gpu": "NVIDIA RTX 4090"
+    },
+    "features": ["Dual-Mode Display (4K OLED / FHD 240Hz)", "RTX 4090", "CNC Aluminum Chassis", "THX Spatial Audio", "Vapor Chamber Cooling"],
+    "description": "The ultra-premium gaming laptop that redefines luxury gaming. Stunning dual-mode display with desktop-class RTX 4090 in a sleek black aluminum body.",
+    "ideal_for": ["hardcore gamer", "content creator", "game developer", "luxury buyer"]
+  },
+  {
+    "id": "L009",
+    "name": "Budget Student Chromebook 14",
+    "category": "laptop",
+    "brand": "Acer",
+    "price": 299.00,
+    "rating": 3.8,
+    "specs": {
+      "ram": "4GB LPDDR4X",
+      "storage": "64GB eMMC + 100GB Google Drive",
+      "processor": "Intel Celeron N4500",
+      "display": "14\" HD TN 60Hz",
+      "battery": "10 hours",
+      "weight": "1.5 kg",
+      "gpu": "Intel UHD 600"
+    },
+    "features": ["Google Classroom Ready", "Chrome OS", "Fast Boot", "Google Drive Storage", "Lightweight"],
+    "description": "The most affordable laptop for basic student tasks. Runs Chrome OS with seamless Google Workspace integration for assignments and note-taking.",
+    "ideal_for": ["student", "budget conscious", "basic tasks", "school"]
+  },
+  {
+    "id": "L010",
+    "name": "LG Gram 17",
+    "category": "laptop",
+    "brand": "LG",
+    "price": 1499.00,
+    "rating": 4.5,
+    "specs": {
+      "ram": "16GB LPDDR5",
+      "storage": "1TB NVMe SSD",
+      "processor": "Intel Core i7-1360P",
+      "display": "17\" WQXGA IPS Anti-Glare",
+      "battery": "19.5 hours",
+      "weight": "1.35 kg",
+      "gpu": "Intel Iris Xe"
+    },
+    "features": ["World's Lightest 17\" Laptop", "MIL-SPEC 810H Certified", "All-Day Battery", "Wide WQXGA Display", "Thunderbolt 4"],
+    "description": "Defy expectations with the world's lightest 17\" laptop weighing just 1.35kg with nearly 20 hours battery. Perfect for professionals who need screen real estate on the go.",
+    "ideal_for": ["professional", "traveler", "student", "data analyst", "productivity focused"]
+  },
+  {
+    "id": "L011",
+    "name": "ASUS ProArt Studiobook 16 OLED",
+    "category": "laptop",
+    "brand": "ASUS",
+    "price": 2799.00,
+    "rating": 4.8,
+    "specs": {
+      "ram": "64GB DDR5",
+      "storage": "4TB SSD",
+      "processor": "Intel Core i9-13980HX",
+      "display": "16\" 3.2K OLED 120Hz",
+      "battery": "10 hours",
+      "weight": "2.4 kg",
+      "gpu": "NVIDIA RTX 4070"
+    },
+    "features": ["Pantone Validated Display", "ASUS Dial Pro Knob", "3.2K OLED", "AI-Powered Noise Cancellation", "Thunderbolt 4"],
+    "description": "Purpose-built for creative professionals. Pantone-validated 3.2K OLED display with dedicated ProArt creator tools and massive storage for heavy media projects.",
+    "ideal_for": ["graphic designer", "video editor", "3D artist", "architect", "creative professional"]
+  },
+  {
+    "id": "L012",
+    "name": "MSI Prestige 15",
+    "category": "laptop",
+    "brand": "MSI",
+    "price": 1099.00,
+    "rating": 4.3,
+    "specs": {
+      "ram": "16GB DDR4",
+      "storage": "512GB NVMe",
+      "processor": "Intel Core i7-12700H",
+      "display": "15.6\" FHD IPS 60Hz",
+      "battery": "11 hours",
+      "weight": "1.69 kg",
+      "gpu": "NVIDIA RTX 4060"
+    },
+    "features": ["Slim Business Design", "RTX 4060", "Fingerprint Reader", "Thunderbolt 4", "AI Microphone"],
+    "description": "Thin and elegant professional laptop with discrete GPU power for both productivity and light creative work.",
+    "ideal_for": ["professional", "developer", "business user", "light gaming"]
+  },
+  {
+    "id": "S001",
+    "name": "Samsung Galaxy S25 Ultra",
+    "category": "smartphone",
+    "brand": "Samsung",
+    "price": 1299.00,
+    "rating": 4.9,
+    "specs": {
+      "ram": "12GB",
+      "storage": "256GB",
+      "processor": "Snapdragon 8 Elite",
+      "display": "6.9\" QHD+ Dynamic AMOLED 120Hz",
+      "battery": "5000mAh",
+      "camera": "200MP + 50MP + 10MP + 12MP Quad Camera"
+    },
+    "features": ["S Pen Included", "200MP ProVisual Camera", "Galaxy AI Features", "7 Year OS Updates", "Titanium Frame"],
+    "description": "Samsung's crown jewel. Titanium chassis, 200MP camera system, built-in S Pen with AI features — the most complete Android flagship experience.",
+    "ideal_for": ["power user", "photographer", "business professional", "flagship buyer", "Android enthusiast"]
+  },
+  {
+    "id": "S002",
+    "name": "Apple iPhone 16 Pro Max",
+    "category": "smartphone",
+    "brand": "Apple",
+    "price": 1199.00,
+    "rating": 4.9,
+    "specs": {
+      "ram": "8GB",
+      "storage": "256GB",
+      "processor": "Apple A18 Pro",
+      "display": "6.9\" Super Retina XDR ProMotion 120Hz",
+      "battery": "4685mAh",
+      "camera": "48MP + 48MP + 12MP Triple Camera System"
+    },
+    "features": ["Camera Control Button", "Action Button", "Titanium Design", "Apple Intelligence AI", "4K 120fps ProRes Video"],
+    "description": "The most advanced iPhone ever. With A18 Pro chip, titanium design, and revolutionary camera control, it sets the gold standard for mobile photography and AI.",
+    "ideal_for": ["iPhone user", "photographer", "videographer", "professional", "luxury buyer"]
+  },
+  {
+    "id": "S003",
+    "name": "Google Pixel 9 Pro",
+    "category": "smartphone",
+    "brand": "Google",
+    "price": 999.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "16GB",
+      "storage": "256GB",
+      "processor": "Google Tensor G4",
+      "display": "6.3\" Super Actua OLED 120Hz",
+      "battery": "4700mAh",
+      "camera": "50MP + 48MP + 48MP Triple Camera"
+    },
+    "features": ["Google AI Photo Editing", "7 Years OS Updates", "Gemini AI Built-in", "Satellite Connectivity", "Call Screen AI"],
+    "description": "The smartest smartphone with Google's most advanced AI. Unmatched computational photography, pure Android experience, and 7 years of updates.",
+    "ideal_for": ["AI enthusiast", "photographer", "Android purist", "tech savvy", "developer"]
+  },
+  {
+    "id": "S004",
+    "name": "OnePlus 12",
+    "category": "smartphone",
+    "brand": "OnePlus",
+    "price": 799.00,
+    "rating": 4.6,
+    "specs": {
+      "ram": "16GB LPDDR5X",
+      "storage": "256GB",
+      "processor": "Snapdragon 8 Gen 3",
+      "display": "6.82\" LTPO AMOLED 120Hz",
+      "battery": "5400mAh",
+      "camera": "50MP Hasselblad + 64MP + 48MP"
+    },
+    "features": ["Hasselblad Camera System", "100W SUPERVOOC Fast Charging", "OxygenOS", "Alert Slider", "Curved Display"],
+    "description": "Flagship performance at a refreshing price. Hasselblad-tuned cameras, insane 100W charging, and the smoothest Android skin make this the ultimate value flagship.",
+    "ideal_for": ["performance enthusiast", "value seeker", "fast charging lover", "power user"]
+  },
+  {
+    "id": "S005",
+    "name": "Xiaomi 14 Ultra",
+    "category": "smartphone",
+    "brand": "Xiaomi",
+    "price": 899.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "16GB",
+      "storage": "512GB",
+      "processor": "Snapdragon 8 Gen 3",
+      "display": "6.73\" AMOLED LTPO 120Hz",
+      "battery": "5000mAh",
+      "camera": "50MP Leica Quad Summilux Camera"
+    },
+    "features": ["Leica Summilux Quad Camera", "90W HyperCharge", "IP68 Water Resistant", "MIUI 14", "Variable Aperture Lens"],
+    "description": "Photography masterpiece co-engineered with Leica. Variable aperture main camera and quad-lens system produce images rivaling dedicated cameras.",
+    "ideal_for": ["photography enthusiast", "tech enthusiast", "power user", "camera focused"]
+  },
+  {
+    "id": "S006",
+    "name": "Samsung Galaxy A54",
+    "category": "smartphone",
+    "brand": "Samsung",
+    "price": 449.00,
+    "rating": 4.4,
+    "specs": {
+      "ram": "8GB",
+      "storage": "128GB",
+      "processor": "Exynos 1380",
+      "display": "6.4\" Super AMOLED 120Hz",
+      "battery": "5000mAh",
+      "camera": "50MP + 12MP + 5MP"
+    },
+    "features": ["IP67 Water Resistant", "5G Ready", "33W Fast Charging", "5-Year Security Updates", "Samsung Pay"],
+    "description": "The sweet spot for mid-range performance. Vibrant Super AMOLED display, IP67 durability, and Samsung's trusted ecosystem at a reasonable price.",
+    "ideal_for": ["everyday user", "budget mid-range", "student", "value seeker"]
+  },
+  {
+    "id": "S007",
+    "name": "Motorola Edge 40 Neo",
+    "category": "smartphone",
+    "brand": "Motorola",
+    "price": 349.00,
+    "rating": 4.2,
+    "specs": {
+      "ram": "12GB",
+      "storage": "256GB",
+      "processor": "MediaTek Dimensity 7030",
+      "display": "6.55\" pOLED 144Hz",
+      "battery": "5000mAh",
+      "camera": "50MP + 13MP"
+    },
+    "features": ["144Hz OLED Display", "68W TurboPower Charging", "ThinkShield Security", "Near Stock Android", "IP68 Rating"],
+    "description": "Stunning 144Hz OLED display and ultra-fast charging at a budget price. Motorola's clean Android experience with enterprise-grade security.",
+    "ideal_for": ["budget buyer", "student", "everyday user", "first smartphone"]
+  },
+  {
+    "id": "S008",
+    "name": "iPhone SE (3rd Gen)",
+    "category": "smartphone",
+    "brand": "Apple",
+    "price": 429.00,
+    "rating": 4.1,
+    "specs": {
+      "ram": "4GB",
+      "storage": "64GB",
+      "processor": "Apple A15 Bionic",
+      "display": "4.7\" Retina IPS 60Hz",
+      "battery": "2018mAh",
+      "camera": "12MP Single Camera"
+    },
+    "features": ["A15 Bionic Chip", "5G Connectivity", "iOS Ecosystem", "Touch ID", "Compact Design"],
+    "description": "The most affordable way into the iPhone ecosystem with flagship-class A15 chip in a classic compact design. Best for iOS lovers on a budget.",
+    "ideal_for": ["budget iPhone user", "iOS ecosystem", "compact phone lover", "senior user"]
+  },
+  {
+    "id": "S009",
+    "name": "Asus ROG Phone 8 Pro",
+    "category": "smartphone",
+    "brand": "ASUS",
+    "price": 1099.00,
+    "rating": 4.6,
+    "specs": {
+      "ram": "24GB LPDDR5X",
+      "storage": "1TB",
+      "processor": "Snapdragon 8 Gen 3",
+      "display": "6.78\" AMOLED 165Hz",
+      "battery": "5500mAh",
+      "camera": "50MP + 32MP + 13MP"
+    },
+    "features": ["165Hz Gaming Display", "AirTrigger Gaming Buttons", "ROG Cooler Port", "Quad Speakers", "Game Genie Optimization"],
+    "description": "The ultimate gaming smartphone. Dedicated AirTrigger buttons, 165Hz AMOLED display, massive battery, and thermal cooling make it unbeatable for mobile gaming.",
+    "ideal_for": ["mobile gamer", "gaming enthusiast", "power user", "streamer"]
+  },
+  {
+    "id": "S010",
+    "name": "Nothing Phone (2)",
+    "category": "smartphone",
+    "brand": "Nothing",
+    "price": 599.00,
+    "rating": 4.3,
+    "specs": {
+      "ram": "12GB",
+      "storage": "256GB",
+      "processor": "Snapdragon 8+ Gen 1",
+      "display": "6.7\" LTPO OLED 120Hz",
+      "battery": "4700mAh",
+      "camera": "50MP + 50MP Dual Camera"
+    },
+    "features": ["Unique Glyph Interface LED System", "Nothing OS (Near-Stock Android)", "Wireless Charging", "Transparent Back Design", "Wireless Reverse Charging"],
+    "description": "The most distinctive smartphone design of its generation. Iconic Glyph lighting system, clean Nothing OS, and solid performance in a uniquely transparent design.",
+    "ideal_for": ["design enthusiast", "unique phone seeker", "tech enthusiast", "minimalist"]
+  },
+  {
+    "id": "H001",
+    "name": "Sony WH-1000XM5",
+    "category": "headphones",
+    "brand": "Sony",
+    "price": 349.00,
+    "rating": 4.9,
+    "specs": {
+      "type": "Over-ear",
+      "battery": "30 hours with ANC",
+      "connectivity": "Bluetooth 5.2, Multipoint",
+      "driver": "30mm Carbon Fiber",
+      "weight": "250g"
+    },
+    "features": ["Industry-leading ANC", "Speak-to-Chat", "8 Mics for Call Quality", "Multipoint Connection", "Foldable Design"],
+    "description": "The benchmark for noise-cancelling headphones. Eight microphones and two processors deliver Sony's best-ever ANC with exceptional audio quality for audiophiles.",
+    "ideal_for": ["audiophile", "frequent traveler", "remote worker", "premium buyer", "commuter"]
+  },
+  {
+    "id": "H002",
+    "name": "Bose QuietComfort Ultra",
+    "category": "headphones",
+    "brand": "Bose",
+    "price": 429.00,
+    "rating": 4.8,
+    "specs": {
+      "type": "Over-ear",
+      "battery": "24 hours",
+      "connectivity": "Bluetooth 5.3, Multipoint",
+      "driver": "40mm custom",
+      "weight": "240g"
+    },
+    "features": ["Bose Immersive Audio", "CustomTune EQ", "World-Class Noise Cancellation", "Transparent Mode", "Plush Earcups"],
+    "description": "Bose's most premium headphones with revolutionary Immersive Audio that creates a spatial audio experience. Superior comfort for all-day wear with best-in-class noise cancellation.",
+    "ideal_for": ["audiophile", "premium buyer", "frequent flyer", "music professional", "luxury buyer"]
+  },
+  {
+    "id": "H003",
+    "name": "Apple AirPods Pro 2",
+    "category": "headphones",
+    "brand": "Apple",
+    "price": 249.00,
+    "rating": 4.8,
+    "specs": {
+      "type": "True Wireless In-ear",
+      "battery": "6 hours + 24 hours case",
+      "connectivity": "Bluetooth 5.3, H2 Chip",
+      "driver": "Custom Apple driver",
+      "weight": "5.3g per earbud"
+    },
+    "features": ["Adaptive Transparency", "Personalized Spatial Audio", "Adaptive EQ", "H2 Chip ANC", "MagSafe Charging Case"],
+    "description": "The world's most advanced earbuds for iPhone users. Personalized Spatial Audio adapts in real-time and ANC that responds to environment automatically.",
+    "ideal_for": ["iPhone user", "Apple ecosystem", "commuter", "fitness", "premium earbuds"]
+  },
+  {
+    "id": "H004",
+    "name": "Samsung Galaxy Buds 3 Pro",
+    "category": "headphones",
+    "brand": "Samsung",
+    "price": 229.00,
+    "rating": 4.6,
+    "specs": {
+      "type": "True Wireless In-ear",
+      "battery": "6 hours + 24 hours case",
+      "connectivity": "Bluetooth 5.4",
+      "driver": "10mm + 6.1mm dual driver",
+      "weight": "5.5g per earbud"
+    },
+    "features": ["360 Audio", "Intelligent ANC", "Blade Tip Design", "Galaxy AI Integration", "IP57 Rating"],
+    "description": "Samsung's most premium earbuds with iconic blade design, 360 audio, and intelligent noise cancellation that adapts to your environment in real time.",
+    "ideal_for": ["Samsung user", "Android user", "commuter", "fitness", "premium earbuds"]
+  },
+  {
+    "id": "H005",
+    "name": "Jabra Evolve2 85",
+    "category": "headphones",
+    "brand": "Jabra",
+    "price": 499.00,
+    "rating": 4.7,
+    "specs": {
+      "type": "Over-ear",
+      "battery": "37 hours",
+      "connectivity": "Bluetooth 5.0 + USB Dongle",
+      "driver": "40mm",
+      "weight": "341g"
+    },
+    "features": ["Professional-Grade ANC", "10 Microphones", "MS Teams Certified", "Hybrid ANC", "Busylight Indicator"],
+    "description": "Engineered for enterprise professionals. 37-hour battery, 10-mic system, and Microsoft Teams certification make it the definitive work-from-home headset.",
+    "ideal_for": ["business professional", "remote worker", "enterprise", "video conferencing"]
+  },
+  {
+    "id": "H006",
+    "name": "Anker Soundcore Q45",
+    "category": "headphones",
+    "brand": "Anker",
+    "price": 79.00,
+    "rating": 4.3,
+    "specs": {
+      "type": "Over-ear",
+      "battery": "50 hours",
+      "connectivity": "Bluetooth 5.3 + 3.5mm",
+      "driver": "40mm",
+      "weight": "266g"
+    },
+    "features": ["50-Hour Battery", "Adaptive ANC", "LDAC Hi-Res Audio", "Multi-Mode ANC", "Fast Charging (10 min = 4 hrs)"],
+    "description": "Exceptional value headphones with Hi-Res LDAC audio and impressive 50-hour battery. Delivers premium ANC features at a budget-friendly price.",
+    "ideal_for": ["budget buyer", "student", "value seeker", "everyday user"]
+  },
+  {
+    "id": "H007",
+    "name": "Sennheiser HD 660S2",
+    "category": "headphones",
+    "brand": "Sennheiser",
+    "price": 599.00,
+    "rating": 4.8,
+    "specs": {
+      "type": "Open-back Over-ear (Wired)",
+      "battery": "N/A (Wired)",
+      "connectivity": "3.5mm + 4.4mm Balanced",
+      "driver": "38mm Sennheiser Transducer",
+      "weight": "260g"
+    },
+    "features": ["Reference-Grade Open Back Sound", "Ultra-Wide Soundstage", "Detachable OFC Cable", "Balanced Connection", "Audiophile Grade"],
+    "description": "The reference-grade audiophile headphones for home listening. Open-back design creates an expansive soundstage that no closed-back or wireless headphone can replicate.",
+    "ideal_for": ["audiophile", "home studio", "music production", "hi-fi enthusiast"]
+  },
+  {
+    "id": "H008",
+    "name": "SteelSeries Arctis Nova Pro Wireless",
+    "category": "headphones",
+    "brand": "SteelSeries",
+    "price": 349.00,
+    "rating": 4.6,
+    "specs": {
+      "type": "Over-ear Gaming",
+      "battery": "44 hours (with hot-swap)",
+      "connectivity": "2.4GHz + Bluetooth 5.0",
+      "driver": "40mm Hi-Fi",
+      "weight": "338g"
+    },
+    "features": ["Hot-Swap Battery System", "Active Noise Cancellation", "Retractable ClearCast Mic", "Hi-Res Audio Certified", "GameDAC Gen 2"],
+    "description": "The world's first hot-swappable battery gaming headset. Never run out of power during gaming sessions with the revolutionary dual-battery system and premium Hi-Fi audio.",
+    "ideal_for": ["gamer", "hardcore gamer", "gaming enthusiast", "streamer", "esports player"]
+  },
+  {
+    "id": "D001",
+    "name": "Apple Mac Pro M2 Ultra",
+    "category": "desktop",
+    "brand": "Apple",
+    "price": 6999.00,
+    "rating": 4.9,
+    "specs": {
+      "ram": "192GB Unified Memory",
+      "storage": "1TB SSD",
+      "processor": "Apple M2 Ultra (24-core CPU)",
+      "gpu": "76-core GPU",
+      "connectivity": "6x Thunderbolt 4, 3x USB-A, HDMI 2.1"
+    },
+    "features": ["192GB Unified Memory", "M2 Ultra Chip", "PCIe Expandability", "8K Display Support", "Mac Pro Tower Form Factor"],
+    "description": "The most powerful personal computer Apple has ever built. Designed for professionals pushing the limits of creative and scientific work.",
+    "ideal_for": ["professional studio", "ML researcher", "video production", "3D animation", "extreme workload"]
+  },
+  {
+    "id": "D002",
+    "name": "ASUS ROG Huracan G21",
+    "category": "desktop",
+    "brand": "ASUS",
+    "price": 2799.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "32GB DDR5",
+      "storage": "2TB SSD",
+      "processor": "Intel Core i9-13900KF",
+      "gpu": "NVIDIA RTX 4090",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4"
+    },
+    "features": ["RTX 4090 Desktop GPU", "Compact Hexagonal Design", "ARGB Lighting", "Tool-free Upgrade Panel", "ROG GameFirst Technology"],
+    "description": "Compact gaming powerhouse in a futuristic hexagonal chassis. Full-power RTX 4090 desktop GPU delivers uncompromising 4K gaming performance.",
+    "ideal_for": ["hardcore gamer", "gaming", "4K gaming", "VR gaming", "streaming setup"]
+  },
+  {
+    "id": "D003",
+    "name": "Dell XPS Desktop 8960",
+    "category": "desktop",
+    "brand": "Dell",
+    "price": 1799.00,
+    "rating": 4.5,
+    "specs": {
+      "ram": "32GB DDR5",
+      "storage": "1TB SSD + 2TB HDD",
+      "processor": "Intel Core i7-13700",
+      "gpu": "NVIDIA RTX 4070",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3, USB-C, Thunderbolt 4"
+    },
+    "features": ["Premium Tower Design", "RTX 4070", "Liquid Cooling", "Easy Upgradability", "Quiet Operation"],
+    "description": "The premium home desktop for creators and professionals. Elegant design with powerful specs for both creative work and high-refresh gaming.",
+    "ideal_for": ["content creator", "professional", "gamer", "home office", "video editing"]
+  },
+  {
+    "id": "D004",
+    "name": "Lenovo IdeaCentre 3",
+    "category": "desktop",
+    "brand": "Lenovo",
+    "price": 649.00,
+    "rating": 4.1,
+    "specs": {
+      "ram": "16GB DDR4",
+      "storage": "512GB SSD",
+      "processor": "AMD Ryzen 5 5500",
+      "gpu": "AMD Radeon RX 6500 XT",
+      "connectivity": "Wi-Fi 5, Bluetooth 5.0, USB-A 3.2"
+    },
+    "features": ["Compact Design", "Wi-Fi Ready", "Multiple USB Ports", "Expandable RAM", "Windows 11 Home"],
+    "description": "Affordable family desktop for everyday computing, homework, and light gaming. Reliable Lenovo quality at an accessible price point.",
+    "ideal_for": ["family use", "student", "budget desktop", "office work", "everyday computing"]
+  },
+  {
+    "id": "D005",
+    "name": "HP OMEN 45L Gaming Desktop",
+    "category": "desktop",
+    "brand": "HP",
+    "price": 3299.00,
+    "rating": 4.6,
+    "specs": {
+      "ram": "64GB DDR5",
+      "storage": "2TB NVMe SSD",
+      "processor": "Intel Core i9-13900K",
+      "gpu": "NVIDIA RTX 4080",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3, USB-C"
+    },
+    "features": ["Cryo Chamber Cooling", "RTX 4080", "Tool-less Side Panel", "OMEN Command Center Software", "Dual Fan Chamber"],
+    "description": "OMEN's flagship gaming tower with innovative Cryo Chamber cooling keeping components at peak performance during intense gaming sessions.",
+    "ideal_for": ["enthusiast gamer", "esports player", "game developer", "streaming setup"]
+  },
+  {
+    "id": "D006",
+    "name": "Apple iMac 24\" M3",
+    "category": "desktop",
+    "brand": "Apple",
+    "price": 1699.00,
+    "rating": 4.8,
+    "specs": {
+      "ram": "16GB Unified Memory",
+      "storage": "512GB SSD",
+      "processor": "Apple M3 (8-core CPU)",
+      "gpu": "10-core GPU",
+      "connectivity": "Thunderbolt 3, USB-C, Wi-Fi 6E, Ethernet"
+    },
+    "features": ["4.5K Retina Display", "7mm Thin Design", "Magic Keyboard + Mouse Included", "True Tone Display", "12MP Center Stage Camera"],
+    "description": "The most beautiful all-in-one desktop ever made. Jaw-dropping 4.5K Retina display in a 7mm slim chassis that looks stunning in any setting.",
+    "ideal_for": ["home user", "creative professional", "student", "family", "design enthusiast"]
+  },
+  {
+    "id": "T001",
+    "name": "Apple iPad Pro 13\" M4",
+    "category": "tablet",
+    "brand": "Apple",
+    "price": 1299.00,
+    "rating": 4.9,
+    "specs": {
+      "ram": "16GB",
+      "storage": "256GB",
+      "processor": "Apple M4",
+      "display": "13\" Ultra Retina XDR OLED 120Hz",
+      "battery": "10 hours",
+      "weight": "579g"
+    },
+    "features": ["Ultra Retina XDR OLED", "Apple Pencil Pro Support", "Magic Keyboard Compatible", "Tandem OLED Display", "Landscape Front Camera"],
+    "description": "The thinnest Apple product ever made. M4 chip with Tandem OLED display delivers an unparalleled visual experience for creative professionals and power users.",
+    "ideal_for": ["creative professional", "artist", "student", "Apple ecosystem", "digital nomad"]
+  },
+  {
+    "id": "T002",
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "category": "tablet",
+    "brand": "Samsung",
+    "price": 1099.00,
+    "rating": 4.7,
+    "specs": {
+      "ram": "12GB",
+      "storage": "256GB",
+      "processor": "Snapdragon 8 Gen 2",
+      "display": "14.6\" Dynamic AMOLED 120Hz",
+      "battery": "11200mAh",
+      "weight": "732g"
+    },
+    "features": ["Largest AMOLED Tablet Display", "S Pen Included", "DeX Desktop Mode", "IP68 Rating", "45W Fast Charging"],
+    "description": "The Android answer to the iPad Pro. Massive 14.6\" AMOLED display with S Pen, DeX desktop mode, and IP68 water resistance for ultimate versatility.",
+    "ideal_for": ["Android user", "creative professional", "student", "power user", "productivity focused"]
+  },
+  {
+    "id": "T003",
+    "name": "Microsoft Surface Pro 10",
+    "category": "tablet",
+    "brand": "Microsoft",
+    "price": 1499.00,
+    "rating": 4.5,
+    "specs": {
+      "ram": "16GB",
+      "storage": "256GB SSD",
+      "processor": "Intel Core Ultra 5",
+      "display": "13\" PixelSense Flow 120Hz",
+      "battery": "14 hours",
+      "weight": "895g (without keyboard)"
+    },
+    "features": ["Full Windows 11 Pro", "Copilot AI Key", "Neural Processing Unit", "5G Optional", "Studio Microphones"],
+    "description": "The world's best Windows tablet. Full desktop software compatibility meets tablet portability with AI-powered features and stunning PixelSense display.",
+    "ideal_for": ["business professional", "Windows user", "productivity focused", "student", "enterprise"]
+  },
+  {
+    "id": "T004",
+    "name": "Amazon Fire HD 10 Plus",
+    "category": "tablet",
+    "brand": "Amazon",
+    "price": 179.00,
+    "rating": 4.1,
+    "specs": {
+      "ram": "4GB",
+      "storage": "64GB + microSD",
+      "processor": "Octa-core 2.0GHz",
+      "display": "10.1\" FHD IPS",
+      "battery": "12 hours",
+      "weight": "465g"
+    },
+    "features": ["Alexa Built-in", "Wireless Charging", "USB-C", "Amazon Prime Integration", "Kids Mode"],
+    "description": "Best value tablet for media consumption. Seamless Amazon ecosystem integration with Alexa, Prime Video, and Kindle all perfectly optimized.",
+    "ideal_for": ["budget tablet", "media consumption", "family", "kids", "Amazon user"]
+  },
+  {
+    "id": "T005",
+    "name": "Lenovo Tab P12 Pro",
+    "category": "tablet",
+    "brand": "Lenovo",
+    "price": 699.00,
+    "rating": 4.4,
+    "specs": {
+      "ram": "8GB",
+      "storage": "256GB",
+      "processor": "Snapdragon 870",
+      "display": "12.6\" AMOLED 120Hz",
+      "battery": "10200mAh",
+      "weight": "565g"
+    },
+    "features": ["12.6\" AMOLED Display", "Lenovo Precision Pen 3", "Dolby Vision + Atmos", "Keyboard Bundle Available", "Thunderbolt 4"],
+    "description": "Premium Android productivity tablet with stunning 12.6\" AMOLED screen. Excellent balance of power, display quality, and price for professionals.",
+    "ideal_for": ["professional", "student", "productivity", "media consumption", "creative work"]
+  },
+  {
+    "id": "W001",
+    "name": "Apple Watch Ultra 2",
+    "category": "smartwatch",
+    "brand": "Apple",
+    "price": 799.00,
+    "rating": 4.8,
+    "specs": {
+      "display": "49mm Micro-LED",
+      "battery": "60 hours (power reserve: 72hr)",
+      "connectivity": "GPS + Cellular, LTE",
+      "sensors": "ECG, Blood Oxygen, Crash Detection, Depth Gauge",
+      "water_resistance": "100m"
+    },
+    "features": ["Titanium Case", "Sapphire Crystal Glass", "Ultra Wideband GPS", "Action Button", "Dual Speaker System", "Siren Alert"],
+    "description": "Built for extreme athletes and adventurers. The most rugged Apple Watch with titanium chassis, 100m water resistance, and 60-hour battery for multi-day adventures.",
+    "ideal_for": ["athlete", "outdoor enthusiast", "extreme sports", "diver", "marathon runner", "luxury buyer"]
+  },
+  {
+    "id": "W002",
+    "name": "Samsung Galaxy Watch 7",
+    "category": "smartwatch",
+    "brand": "Samsung",
+    "price": 299.00,
+    "rating": 4.6,
+    "specs": {
+      "display": "44mm AMOLED 60Hz",
+      "battery": "40 hours",
+      "connectivity": "GPS + LTE optional",
+      "sensors": "ECG, Blood Pressure, Body Composition, Irregular Heart Rate"
+    },
+    "features": ["Advanced Health Sensors", "Sleep Coaching AI", "Galaxy AI Features", "Wear OS + One UI Watch", "BioActive Sensor"],
+    "description": "Samsung's most advanced smartwatch with comprehensive health monitoring including blood pressure and body composition measurements powered by Galaxy AI.",
+    "ideal_for": ["health conscious", "Android user", "fitness enthusiast", "everyday wear"]
+  },
+  {
+    "id": "W003",
+    "name": "Garmin Fenix 8 Solar",
+    "category": "smartwatch",
+    "brand": "Garmin",
+    "price": 1099.00,
+    "rating": 4.8,
+    "specs": {
+      "display": "47mm AMOLED",
+      "battery": "29 days (solar extend mode: endless)",
+      "connectivity": "GPS + Multi-band + LTE",
+      "sensors": "Pulse Ox, VO2 Max, Body Battery, Stress Tracking"
+    },
+    "features": ["Solar Charging Panel", "Built-in LED Flashlight", "Topographic Maps", "Multi-sport Profiles (90+)", "Dive Computer Mode"],
+    "description": "The ultimate outdoor adventure smartwatch with solar charging for virtually unlimited battery life. Over 90 sport modes, topographic maps, and dive computer built in.",
+    "ideal_for": ["ultra athlete", "outdoor adventurer", "mountaineer", "triathlete", "endurance sports"]
+  },
+  {
+    "id": "W004",
+    "name": "Fitbit Charge 6",
+    "category": "smartwatch",
+    "brand": "Fitbit",
+    "price": 159.00,
+    "rating": 4.3,
+    "specs": {
+      "display": "Color AMOLED",
+      "battery": "7 days",
+      "connectivity": "GPS, NFC, Bluetooth",
+      "sensors": "Heart Rate, SpO2, ECG, Skin Temperature"
+    },
+    "features": ["Google Maps + Wallet Integration", "Built-in GPS", "6 months Google One included", "ECG App", "Stress Management Score"],
+    "description": "Google's most advanced fitness tracker with built-in GPS, Google Wallet, and Maps. Perfect health companion that integrates seamlessly with Google ecosystem.",
+    "ideal_for": ["fitness beginner", "health tracker", "budget smartwatch", "everyday fitness"]
+  },
+  {
+    "id": "W005",
+    "name": "Apple Watch Series 10",
+    "category": "smartwatch",
+    "brand": "Apple",
+    "price": 399.00,
+    "rating": 4.7,
+    "specs": {
+      "display": "46mm LTPO OLED Always-On",
+      "battery": "18 hours",
+      "connectivity": "GPS + Cellular, Ultra Wideband",
+      "sensors": "ECG, Blood Oxygen, Temperature, Crash Detection"
+    },
+    "features": ["Thinnest Apple Watch Ever", "Sleep Apnea Detection", "Fast Charging (80% in 30min)", "Precision Finding", "watchOS 11"],
+    "description": "The most refined Apple Watch with the largest display ever in the thinnest design. Sleep apnea detection is a breakthrough health feature approved by medical regulators.",
+    "ideal_for": ["iPhone user", "health conscious", "everyday wear", "Apple ecosystem", "professional"]
+  },
+  {
+    "id": "C001",
+    "name": "Sony A7R V",
+    "category": "camera",
+    "brand": "Sony",
+    "price": 3899.00,
+    "rating": 4.9,
+    "specs": {
+      "sensor": "61MP Full-Frame BSI CMOS",
+      "iso_range": "100-32000 (expanded 50-102400)",
+      "video": "8K RAW, 4K 60fps",
+      "autofocus": "693-point Phase Detection + AI Subject Recognition",
+      "weight": "723g"
+    },
+    "features": ["61MP Resolution", "AI-Powered AF", "8-stop IBIS", "8K RAW Output", "Multi-Focal-Length AI SR"],
+    "description": "The ultimate high-resolution mirrorless camera. 61MP sensor with AI-powered autofocus and 8K RAW output for professional photographers and cinematographers.",
+    "ideal_for": ["professional photographer", "landscape photographer", "studio photography", "videographer"]
+  },
+  {
+    "id": "C002",
+    "name": "Canon EOS R6 Mark II",
+    "category": "camera",
+    "brand": "Canon",
+    "price": 2499.00,
+    "rating": 4.8,
+    "specs": {
+      "sensor": "40MP Full-Frame CMOS",
+      "iso_range": "100-102400",
+      "video": "6K RAW, 4K 60fps",
+      "autofocus": "Dual Pixel CMOS AF II",
+      "weight": "670g"
+    },
+    "features": ["40MP Sensor", "6K RAW Internal", "In-Body Stabilization", "Eye/Face/Animal AF", "Weather Sealed"],
+    "description": "Canon's versatile all-rounder for both stills and video. Outstanding autofocus, excellent low-light performance, and 6K RAW video make it perfect for hybrid shooters.",
+    "ideal_for": ["hybrid shooter", "wedding photographer", "portrait photographer", "wildlife photographer"]
+  },
+  {
+    "id": "C003",
+    "name": "GoPro HERO 13 Black",
+    "category": "camera",
+    "brand": "GoPro",
+    "price": 399.00,
+    "rating": 4.6,
+    "specs": {
+      "sensor": "1/1.9\" CMOS",
+      "video": "5.3K 60fps, 4K 120fps",
+      "stabilization": "HyperSmooth 6.0",
+      "battery": "Enduro Battery 3hrs",
+      "water_resistance": "10m without housing"
+    },
+    "features": ["HyperSmooth 6.0 Stabilization", "HDR Video", "Magnetic Latch System", "Accessory Compatible", "Live Streaming"],
+    "description": "The world's leading action camera. HyperSmooth 6.0 makes every shot smooth regardless of activity. Perfect for adventure sports and outdoor filmmaking.",
+    "ideal_for": ["adventure sports", "travel videography", "extreme sports", "underwater photography", "vlogger"]
+  },
+  {
+    "id": "C004",
+    "name": "Fujifilm X100VI",
+    "category": "camera",
+    "brand": "Fujifilm",
+    "price": 1599.00,
+    "rating": 4.8,
+    "specs": {
+      "sensor": "40MP X-Trans CMOS 5 HR",
+      "video": "6.2K, 4K 60fps",
+      "lens": "23mm f/2.0 Fixed Lens",
+      "stabilization": "7-stop IBIS",
+      "weight": "521g"
+    },
+    "features": ["Fixed 23mm Fujinon Lens", "Classic Film Simulations", "Hybrid OVF/EVF Viewfinder", "40MP BSI Sensor", "In-Body Stabilization"],
+    "description": "The most beautiful and capable compact camera ever made. Fujifilm's legendary film simulations in a stunning retro-modern body with best-in-class image quality.",
+    "ideal_for": ["street photographer", "travel photographer", "enthusiast photographer", "compact camera lover", "aesthetic focused"]
+  },
+  {
+    "id": "C005",
+    "name": "Nikon Z30",
+    "category": "camera",
+    "brand": "Nikon",
+    "price": 699.00,
+    "rating": 4.4,
+    "specs": {
+      "sensor": "20.9MP APS-C BSI CMOS",
+      "video": "4K UHD, 1080p 120fps",
+      "stabilization": "Electronic",
+      "battery": "300 shots",
+      "weight": "405g"
+    },
+    "features": ["Vlogger-Optimized Design", "Tilting Touchscreen", "USB-C Charging While Shooting", "Clean HDMI Out", "Eye AF"],
+    "description": "Designed specifically for content creators and vloggers. Lightweight mirrorless body with flip-up screen, continuous USB-C power, and excellent video quality.",
+    "ideal_for": ["vlogger", "content creator", "beginner photographer", "video focused", "YouTuber"]
+  }
+]

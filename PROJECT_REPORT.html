@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEX — Project Report | GEN-AI Assignment 2</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600&family=Source+Code+Pro:wght@400;500&display=swap');
+
+:root {
+  --gold: #9b7a2c;
+  --dark: #1a1a1a;
+  --mid: #444;
+  --light: #777;
+  --accent: #2c4a8b;
+  --bg: #fafaf8;
+  --paper: #ffffff;
+  --border: #e0ddd8;
+  --code-bg: #f5f4f0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Source Sans 3', Georgia, serif;
+  font-size: 11pt;
+  color: var(--dark);
+  background: var(--bg);
+  line-height: 1.75;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: 60px 72px;
+  box-shadow: 0 2px 40px rgba(0,0,0,.08);
+}
+
+/* ── Cover Page ── */
+.cover {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: 60px;
+  page-break-after: always;
+}
+.cover-label {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 8pt;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 40px;
+}
+.cover-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42pt;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+.cover-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 16pt;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--mid);
+  margin-bottom: 40px;
+}
+.cover-divider {
+  width: 56px;
+  height: 2px;
+  background: var(--gold);
+  margin: 32px 0;
+}
+.cover-meta {
+  font-size: 10pt;
+  color: var(--mid);
+  line-height: 2;
+}
+.cover-meta strong { color: var(--dark); }
+.cover-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 32px;
+}
+.cover-tag {
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 7.5pt;
+  letter-spacing: .1em;
+  color: var(--light);
+}
+
+/* ── Section headers ── */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22pt;
+  font-weight: 700;
+  color: var(--dark);
+  margin: 48px 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 14pt;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 32px 0 10px;
+}
+h3 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 22px 0 7px;
+  letter-spacing: .02em;
+}
+.section-num {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 8pt;
+  color: var(--gold);
+  letter-spacing: .2em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+p { margin-bottom: 12px; }
+li { margin-bottom: 5px; }
+ul, ol { margin: 10px 0 12px 22px; }
+
+/* ── Tables ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 10pt;
+}
+th {
+  background: var(--code-bg);
+  font-weight: 600;
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 2px solid var(--border);
+  font-size: 9pt;
+  letter-spacing: .05em;
+}
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+tr:hover td { background: #fdfcf8; }
+.td-ok { color: #2a7a4a; font-weight: 600; }
+.td-na { color: var(--light); }
+
+/* ── Code blocks ── */
+code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 9pt;
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  padding: 16px 18px;
+  margin: 16px 0;
+  overflow-x: auto;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 8.5pt;
+  line-height: 1.65;
+}
+
+/* ── Callout boxes ── */
+.callout {
+  border-left: 3px solid var(--gold);
+  background: #fdf8ee;
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-size: 10.5pt;
+}
+.callout-title {
+  font-weight: 600;
+  color: var(--gold);
+  font-size: 9pt;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.callout-blue { border-color: var(--accent); background: #f0f4fc; }
+.callout-blue .callout-title { color: var(--accent); }
+.callout-red { border-color: #8b2c2c; background: #fdf0f0; }
+.callout-red .callout-title { color: #8b2c2c; }
+
+/* ── Architecture diagram ── */
+.arch-box {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 8pt;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 18px;
+  white-space: pre;
+  margin: 16px 0;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* ── Score formula ── */
+.formula {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 14px 20px;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 10pt;
+  margin: 16px 0;
+  color: var(--dark);
+}
+
+/* ── Metrics grid ── */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin: 18px 0;
+}
+.metric-box {
+  border: 1px solid var(--border);
+  padding: 14px 16px;
+  text-align: center;
+}
+.metric-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 26pt;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.metric-label {
+  font-size: 8.5pt;
+  color: var(--light);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/* ── Print ── */
+@media print {
+  body { background: #fff; }
+  .page { box-shadow: none; padding: 40px 56px; max-width: 100%; }
+  .cover { min-height: auto; padding-bottom: 40px; }
+  h1 { page-break-before: always; }
+  h1:first-of-type { page-break-before: avoid; }
+  pre, .callout, .arch-box { page-break-inside: avoid; }
+  .no-print { display: none; }
+}
+
+.page-break { page-break-after: always; height: 1px; }
+.toc-item { display: flex; justify-content: space-between; align-items: baseline; margin: 5px 0; }
+.toc-dots { flex: 1; border-bottom: 1px dotted var(--border); margin: 0 8px 3px; }
+.toc-pg { font-family: 'Source Code Pro', monospace; font-size: 9pt; color: var(--light); }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ════════════════════════════════════════════════════════ COVER PAGE ══ -->
+<div class="cover">
+  <div class="cover-label">GEN-AI · Assignment 2 · University of Central Punjab · 2025</div>
+  <div class="cover-title">APEX</div>
+  <div class="cover-subtitle">Intelligent Shopping Advisor</div>
+  <p style="font-size:11pt;color:var(--mid);max-width:500px">
+    A production-grade multi-agent AI system that accepts natural-language product
+    queries and returns deeply-reasoned, personalized recommendations using LangGraph,
+    FAISS semantic search, and Google Gemini.
+  </p>
+  <div class="cover-divider"></div>
+  <div class="cover-meta">
+    <strong>Author:</strong> Ahmad Yasin<br>
+    <strong>Course:</strong> Generative AI (GEN-AI)<br>
+    <strong>Institution:</strong> University of Central Punjab (UCP)<br>
+    <strong>Semester:</strong> 8th — Spring 2025<br>
+    <strong>Submission:</strong> Assignment 2 — Intelligent Shopping Advisor
+  </div>
+  <div class="cover-tags">
+    <span class="cover-tag">LangGraph</span>
+    <span class="cover-tag">FastAPI</span>
+    <span class="cover-tag">FAISS</span>
+    <span class="cover-tag">Gemini 2.0</span>
+    <span class="cover-tag">SentenceTransformers</span>
+    <span class="cover-tag">WebSocket</span>
+    <span class="cover-tag">Pareto Optimality</span>
+    <span class="cover-tag">RAG</span>
+    <span class="cover-tag">8 Agents</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════ TOC ══════── -->
+<h1 style="margin-top:0">Table of Contents</h1>
+<div class="toc-item"><span>1. Project Overview</span><div class="toc-dots"></div><span class="toc-pg">2</span></div>
+<div class="toc-item"><span>2. System Architecture</span><div class="toc-dots"></div><span class="toc-pg">2</span></div>
+<div class="toc-item"><span>3. Multi-Agent Design</span><div class="toc-dots"></div><span class="toc-pg">3</span></div>
+<div class="toc-item"><span>4. Data Layer &amp; External API Integration</span><div class="toc-dots"></div><span class="toc-pg">5</span></div>
+<div class="toc-item"><span>5. Scoring &amp; Pareto Optimality</span><div class="toc-dots"></div><span class="toc-pg">5</span></div>
+<div class="toc-item"><span>6. LLM Integration Strategy</span><div class="toc-dots"></div><span class="toc-pg">6</span></div>
+<div class="toc-item"><span>7. Frontend &amp; User Experience</span><div class="toc-dots"></div><span class="toc-pg">7</span></div>
+<div class="toc-item"><span>8. Testing &amp; Evaluation</span><div class="toc-dots"></div><span class="toc-pg">7</span></div>
+<div class="toc-item"><span>9. Ethical &amp; Practical Considerations</span><div class="toc-dots"></div><span class="toc-pg">8</span></div>
+<div class="toc-item"><span>10. Deployment &amp; Scalability</span><div class="toc-dots"></div><span class="toc-pg">9</span></div>
+<div class="toc-item"><span>11. Results &amp; Conclusion</span><div class="toc-dots"></div><span class="toc-pg">9</span></div>
+<div class="toc-item"><span>References</span><div class="toc-dots"></div><span class="toc-pg">10</span></div>
+
+<!-- ═══════════════════════════════════════════════ 1. OVERVIEW ══════── -->
+<h1>1. Project Overview</h1>
+<span class="section-num">SECTION 01</span>
+
+<p>APEX (Adaptive Product EXpert) is an <strong>Intelligent Shopping Advisor</strong> that solves a genuine consumer problem: making high-quality, unbiased product decisions in a market saturated with paid reviews, sponsored content, and conflicting opinions. Users can ask natural-language questions like <em>"Best gaming laptop under $2,000 with RTX GPU"</em> and receive structured, fact-based recommendations backed by transparent scoring.</p>
+
+<div class="callout">
+  <div class="callout-title">Core Problem Solved</div>
+  Traditional product search returns keyword-matched lists with no reasoning. APEX applies
+  multi-dimensional analysis (price, performance, brand, durability, innovation) and Pareto
+  optimality theory to surface only genuinely non-dominated product choices, with every
+  recommendation fully explained and traceable to data.
+</div>
+
+<p>The system is built around a <strong>LangGraph StateGraph</strong> with 8 specialized agents, a 51-product FAISS-indexed dataset, Google Gemini 2.0 Flash as the primary LLM, and a real-time WebSocket streaming backend. The luxury premium frontend provides an exceptional user experience with live pipeline visualization, interactive comparisons, and adaptive personalization.</p>
+
+<div class="metrics-grid">
+  <div class="metric-box"><div class="metric-value">8</div><div class="metric-label">LangGraph Agents</div></div>
+  <div class="metric-box"><div class="metric-value">51</div><div class="metric-label">Products in Dataset</div></div>
+  <div class="metric-box"><div class="metric-value">60</div><div class="metric-label">Test Queries</div></div>
+  <div class="metric-box"><div class="metric-value">7</div><div class="metric-label">Product Categories</div></div>
+  <div class="metric-box"><div class="metric-value">5</div><div class="metric-label">Scoring Dimensions</div></div>
+  <div class="metric-box"><div class="metric-value">12</div><div class="metric-label">REST API Endpoints</div></div>
+</div>
+
+<!-- ════════════════════════════════════════════════ 2. ARCHITECTURE ── -->
+<h1>2. System Architecture</h1>
+<span class="section-num">SECTION 02</span>
+
+<p>APEX follows a <strong>hierarchical multi-agent pipeline</strong> orchestrated by LangGraph. A single <code>AgentState</code> TypedDict object flows through every node, carrying all shared data. This design ensures agents are fully decoupled — each reads only what it needs and writes only its own outputs.</p>
+
+<div class="arch-box">User Query (Natural Language)
+     │
+     ▼
+ ┌──────────────────────────────────────────────────────────────────┐
+ │                  LANGGRAPH STATEGRAPH                            │
+ │                                                                  │
+ │  ①Supervisor ──▶ ②Preference ──▶ ③Retrieval ──▶ ④Enrichment   │
+ │                                       │                          │
+ │                       ┌── FAIL ◀──────┤                          │
+ │                       │  (retry ≤2)   ▼                          │
+ │                       │          ⑤Comparison ──▶ ⑥Critique      │
+ │                       └──────────────────────────────┘           │
+ │                                                 │ PASS           │
+ │                                                 ▼                │
+ │                              ⑦Recommendation ──▶ ⑧Learning      │
+ │                                                          │       │
+ └──────────────────────────────────────────────────────── END ──── ┘
+     │
+     ▼
+ WebSocket JSON Stream → Frontend (real-time per-agent events)</div>
+
+<h3>Key Architectural Decisions</h3>
+<ul>
+  <li><strong>Linear pipeline with one conditional edge</strong> — keeps the graph simple and debuggable while enabling self-correction</li>
+  <li><strong>Hard retry cap</strong> — Critique agent failure triggers maximum 2 re-attempts before forcing pass, preventing infinite loops</li>
+  <li><strong>Streaming via <code>workflow.stream()</code></strong> — each node completion fires a WebSocket event, enabling live UI updates</li>
+  <li><strong>Deterministic scoring</strong> — Comparison and Enrichment agents use no LLM, eliminating hallucination from the scoring layer</li>
+  <li><strong>Three-tier LLM fallback</strong> — Gemini 2.0 Flash → Ollama (local) → MockLLM ensures 100% uptime</li>
+</ul>
+
+<!-- ═════════════════════════════════════════════ 3. MULTI-AGENT ══════ -->
+<h1>3. Multi-Agent Design</h1>
+<span class="section-num">SECTION 03</span>
+
+<p>Each agent is a pure Python function <code>(AgentState) → AgentState</code>. LangGraph calls them in sequence, merging the returned state back into the graph. Agents are fully independent — they can be tested, replaced, or parallelized without modifying other agents.</p>
+
+<h2>Agent 1 — Supervisor (Master Orchestrator)</h2>
+<p>Entry point for every request. Classifies query complexity (<em>simple</em> vs <em>complex</em>) and selects the appropriate LLM tier to use for the rest of the pipeline. Also performs initial product category detection.</p>
+<table>
+  <tr><th>Input</th><th>Output</th><th>LLM Used</th></tr>
+  <tr><td>Raw query string</td><td><code>complexity</code>, <code>selected_llm</code>, <code>category</code></td><td>Local (always — routing is cheap)</td></tr>
+</table>
+
+<h2>Agent 2 — Preference (Cognitive Intent Analyzer)</h2>
+<p>Transforms the query into a structured semantic model: budget range, feature keywords, and — most importantly — a <strong>5-axis priority vector</strong> encoding what the user cares about most.</p>
+<div class="callout callout-blue">
+  <div class="callout-title">Priority Vector</div>
+  <strong>Example:</strong> "I need a gaming laptop" → <code>{price: 0.10, performance: 0.50, brand: 0.15, durability: 0.15, innovation: 0.10}</code><br>
+  <strong>Example:</strong> "Cheap laptop for email" → <code>{price: 0.50, performance: 0.15, brand: 0.10, durability: 0.15, innovation: 0.10}</code>
+</div>
+
+<h2>Agent 3 — Retrieval (FAISS Semantic Search + RapidAPI)</h2>
+<p>Performs vector similarity search using <code>all-MiniLM-L6-v2</code> SentenceTransformer embeddings against a pre-built FAISS L2 index of all 51 products. Results are post-filtered by budget and category. The RapidAPI client attempts to inject real-time product data as additional candidates.</p>
+<pre>query_embedding = encoder.encode("gaming laptop RTX")
+distances, indices = faiss_index.search(query_embedding, top_k=15)
+# → returns products sorted by semantic similarity</pre>
+
+<h2>Agent 4 — Enrichment (Rule-Based Normalization)</h2>
+<p>No LLM — purely deterministic. Fills missing spec fields using price-based inference (e.g., a $2,500 laptop infers "32GB+ RAM"), generates fallback descriptions, assigns value tier labels, and infers ideal-for tags from feature keywords.</p>
+
+<h2>Agent 5 — Comparison (Pareto-Optimal 5D Scoring)</h2>
+<p>The core analytical engine. Computes a weighted overall score for each product and identifies Pareto-optimal choices. See Section 5 for the full scoring model.</p>
+
+<h2>Agent 6 — Critique (AI Quality Auditor)</h2>
+<p>Self-correction agent. Reviews the top-3 scored products and validates budget compliance, category match, and spec realism. If validation fails and retry count &lt; 2, the pipeline loops back to Preference with critique feedback injected.</p>
+
+<h2>Agent 7 — Recommendation (LLM Advisory Report)</h2>
+<p>Uses the selected LLM (Gemini 2.0 Flash in production) to generate a structured markdown advisory report. The prompt provides complete product data (scores, specs, features, ideal_for) and instructs the model to produce per-product analysis with pros, cons, value verdict, and a strategic summary.</p>
+
+<h2>Agent 8 — Learning (Adaptive Memory)</h2>
+<p>Persists the session to <code>data_layer/user_memory.json</code> and updates a rolling preference average using exponential smoothing (α = 0.15). This enables the system to personalize future recommendations without requiring explicit user accounts.</p>
+
+<!-- ═══════════════════════════════════════════════ 4. DATA LAYER ══════ -->
+<h1>4. Data Layer &amp; External API Integration</h1>
+<span class="section-num">SECTION 04</span>
+
+<h3>Dataset (data_layer/dataset.json)</h3>
+<p>The system uses a curated 51-product dataset spanning 7 technology categories. All products are real, commercially available items with accurate specifications cross-referenced against manufacturer websites and major retailer listings.</p>
+<table>
+  <tr><th>Category</th><th>Products</th><th>Price Range</th><th>Notable Examples</th></tr>
+  <tr><td>Laptop</td><td>12</td><td>$299 – $3,499</td><td>MacBook Pro M3 Max, ASUS ROG Zephyrus, Chromebook 14</td></tr>
+  <tr><td>Smartphone</td><td>10</td><td>$299 – $1,399</td><td>iPhone 16 Pro Max, Galaxy S25 Ultra, Pixel 9 Pro</td></tr>
+  <tr><td>Headphones</td><td>8</td><td>$29 – $599</td><td>Sony WH-1000XM5, Sennheiser HD 800S, AirPods Pro</td></tr>
+  <tr><td>Desktop</td><td>6</td><td>$699 – $7,999</td><td>Mac Studio, ASUS ROG Maximus, Dell OptiPlex</td></tr>
+  <tr><td>Tablet</td><td>5</td><td>$129 – $1,899</td><td>iPad Pro M4, Galaxy Tab S9, Surface Pro 9</td></tr>
+  <tr><td>Smartwatch</td><td>5</td><td>$199 – $799</td><td>Apple Watch Ultra 2, Garmin Fenix 7X, Galaxy Watch 6</td></tr>
+  <tr><td>Camera</td><td>5</td><td>$399 – $3,499</td><td>Sony A7 IV, Fujifilm X100VI, GoPro Hero 12</td></tr>
+</table>
+
+<h3>FAISS Vector Database</h3>
+<p>Each product is embedded using the <code>all-MiniLM-L6-v2</code> SentenceTransformer model into a 384-dimensional semantic vector. Embeddings are built from a rich text combining name, brand, category, description, features, and ideal_for fields. The FAISS L2 index enables sub-millisecond similarity search at inference time.</p>
+
+<h3>RapidAPI Integration (data_layer/rapidapi_client.py)</h3>
+<p>The Retrieval Agent attempts to enrich results with real-time product data via RapidAPI. The client implements timeout handling (15s), graceful degradation on failure, and safe key management through environment variables. On success, live external products are prepended to the local FAISS results as additional candidates.</p>
+
+<!-- ═══════════════════════════════════════════════ 5. SCORING ═════════ -->
+<h1>5. Scoring &amp; Pareto Optimality</h1>
+<span class="section-num">SECTION 05</span>
+
+<h3>Weighted Multi-Dimensional Scoring Formula</h3>
+<div class="formula">
+  overall_score = Σ  dim_score[d] × priority_vector[d]  for d ∈ {price, performance, brand, durability, innovation}
+</div>
+
+<h3>Dimension Scoring Rules</h3>
+<table>
+  <tr><th>Dimension</th><th>Base Calculation</th><th>Bonus Conditions</th></tr>
+  <tr><td><strong>Price</strong></td><td>Inverse price relative to budget or category average</td><td>+boost if price ≤ 50% of budget</td></tr>
+  <tr><td><strong>Performance</strong></td><td>rating × 2.0 (capped at 10)</td><td>+1.5 for RTX 4090/M3 Max; +0.8 for i7/RTX 4070</td></tr>
+  <tr><td><strong>Brand</strong></td><td>Top-4 premium brand → 9.0; premium tier → 7.5; other → 5.0</td><td>Category-specific PREMIUM_BRANDS lookup</td></tr>
+  <tr><td><strong>Durability</strong></td><td>rating × 1.8</td><td>+1.5 for MIL-SPEC/IP68/titanium; +0.8 for metal build</td></tr>
+  <tr><td><strong>Innovation</strong></td><td>5.0 base</td><td>+0.8 per innovation keyword (AI, OLED, LDAC, Neural Engine…)</td></tr>
+</table>
+
+<h3>Pareto Optimality Analysis</h3>
+<p>A product P is <strong>Pareto-optimal</strong> if no other product Q satisfies: Q scores ≥ P in all dimensions AND Q scores &gt; P in at least one dimension. Pareto-optimal products are "honest" choices — improving one dimension necessarily requires sacrificing another.</p>
+<p>This is implemented as an O(n²) pairwise dominance check across all returned products. Pareto-optimal products are flagged with <code>is_pareto_optimal: true</code> and highlighted in the UI.</p>
+
+<div class="callout">
+  <div class="callout-title">Why Pareto Optimality?</div>
+  Standard ranking algorithms collapse multi-dimensional quality into a single number, hiding important trade-offs. Pareto analysis preserves the full dimensionality — a student on a budget sees a different optimal set than a professional who cares only about durability.
+</div>
+
+<!-- ═══════════════════════════════════════════════ 6. LLM ════════════ -->
+<h1>6. LLM Integration Strategy</h1>
+<span class="section-num">SECTION 06</span>
+
+<p>APEX implements a three-tier LLM fallback chain to ensure 100% availability regardless of API quotas or local infrastructure:</p>
+
+<table>
+  <tr><th>Tier</th><th>Model</th><th>Use Case</th><th>Latency</th></tr>
+  <tr><td>1. Primary</td><td>Gemini 2.0 Flash</td><td>All complex reasoning, recommendation generation</td><td>3–15s</td></tr>
+  <tr><td>2. Secondary</td><td>Ollama (llama3 local)</td><td>When Gemini quota exhausted or offline</td><td>10–40s</td></tr>
+  <tr><td>3. Fallback</td><td>MockLLM (deterministic)</td><td>Always available — parses product data from prompt</td><td>&lt;1s</td></tr>
+</table>
+
+<p>The <code>_QuotaAwareLLM</code> wrapper in <code>llm_factory.py</code> catches <code>RESOURCE_EXHAUSTED</code> (HTTP 429) errors from Gemini and transparently switches the session to MockLLM, so the user always gets a response. Ollama availability is checked via a TCP socket probe before use.</p>
+
+<p>The MockLLM (a Pydantic <code>BaseChatModel</code> subclass) is not simply a stub — it parses actual product names, prices, scores, and features from the recommendation prompt using regular expressions and generates structured, product-specific advisory text referencing real data points.</p>
+
+<!-- ═══════════════════════════════════════════════ 7. FRONTEND ════════ -->
+<h1>7. Frontend &amp; User Experience</h1>
+<span class="section-num">SECTION 07</span>
+
+<p>The frontend (<code>frontend/index.html</code>, ~130KB) is a single-page application with a luxury dark aesthetic, Three.js particle field background, and real-time WebSocket integration. Key features:</p>
+
+<ul>
+  <li><strong>Live Agent Pipeline Visualization</strong> — Each agent streams its status in real-time; a progress bar and per-agent timers are displayed</li>
+  <li><strong>Persona System</strong> — 6 pre-configured user personas (Student, Gamer, Professional, Creator, Audiophile, Traveler) load optimal priority vectors and sample queries</li>
+  <li><strong>Budget Optimizer</strong> — Real-time slider ($100–$5,000) fetches top products via <code>/api/budget-optimizer</code> with 280ms debounce</li>
+  <li><strong>Category Explorer</strong> — Browseable grid of all 51 products pre-scored; category tiles link to filtered views</li>
+  <li><strong>Market Pulse Dashboard</strong> — Per-category intelligence: avg price, avg score, best-value product, value index</li>
+  <li><strong>Price History Chart</strong> — 13-month simulated price trend per product with deal score (0–10) and buy advisory</li>
+  <li><strong>Heat Map View</strong> — Toggle between product cards and a color-coded table (red→orange→green per score dimension)</li>
+  <li><strong>Score Explainer</strong> — Click any score bar → API call → modal explaining exactly why that score was assigned</li>
+  <li><strong>Radar &amp; Scatter Charts</strong> — Chart.js radar (top-3 products) and bubble scatter (all 51 products by price vs score)</li>
+  <li><strong>Voice Search</strong> — Web Speech API microphone integration</li>
+  <li><strong>Comparison Table</strong> — Select up to 3 products for side-by-side spec and score comparison</li>
+  <li><strong>Adaptive Follow-up</strong> — Suggested refinement queries appear after results; free-text follow-up combines with original context</li>
+</ul>
+
+<!-- ═══════════════════════════════════════════════ 8. TESTING ════════ -->
+<h1>8. Testing &amp; Evaluation</h1>
+<span class="section-num">SECTION 08</span>
+
+<p>The evaluation framework (<code>evaluate.py</code>) runs 60 test queries through the complete 8-agent pipeline and measures 5 dimensions of quality:</p>
+
+<table>
+  <tr><th>Metric</th><th>Definition</th><th>Target</th></tr>
+  <tr><td><strong>Pipeline Success Rate</strong></td><td>% of queries that complete without exception</td><td>≥ 90%</td></tr>
+  <tr><td><strong>Category Accuracy</strong></td><td>% where detected category matches expected</td><td>≥ 85%</td></tr>
+  <tr><td><strong>Budget Compliance</strong></td><td>% where all returned products are within budget ±10%</td><td>≥ 95%</td></tr>
+  <tr><td><strong>Result Coverage</strong></td><td>% where ≥ 1 product recommendation is returned</td><td>≥ 95%</td></tr>
+  <tr><td><strong>Response Time</strong></td><td>End-to-end pipeline latency</td><td>&lt; 60s (Gemini) / &lt; 5s (Mock)</td></tr>
+</table>
+
+<h3>Test Query Distribution (60 total)</h3>
+<table>
+  <tr><th>Category</th><th>Queries</th><th>Includes</th></tr>
+  <tr><td>Laptop</td><td>10</td><td>Budget, gaming, travel, coding, OLED, ML research</td></tr>
+  <tr><td>Smartphone</td><td>10</td><td>Budget Android, flagship camera, gaming, 5G, compact</td></tr>
+  <tr><td>Headphones</td><td>10</td><td>ANC, audiophile, budget earbuds, gaming headset, waterproof</td></tr>
+  <tr><td>Desktop</td><td>5</td><td>Gaming workstation, home office, compact SFF, iMac</td></tr>
+  <tr><td>Tablet</td><td>5</td><td>Digital art, kids, Android alternative, Windows tablet</td></tr>
+  <tr><td>Smartwatch</td><td>5</td><td>Marathon runner, health tracking, Apple Watch, battery</td></tr>
+  <tr><td>Camera</td><td>5</td><td>Portrait, action, vlogging, retro-style, hybrid</td></tr>
+  <tr><td>Edge Cases</td><td>10</td><td>No budget, conflicting constraints, garbled input, multi-category</td></tr>
+</table>
+
+<h3>Edge Cases Specifically Tested</h3>
+<ul>
+  <li><strong>Missing budget</strong> — "Best device ever created — no budget" (system falls back to overall score ranking)</li>
+  <li><strong>Conflicting constraints</strong> — "Gaming laptop AND ultra-light AND cheap" (system surfaces trade-offs explicitly)</li>
+  <li><strong>Impossible budget</strong> — "Incredible camera phone under $200" (system recommends best-in-budget with honest assessment)</li>
+  <li><strong>Garbled input</strong> — "asdfjkl; phone recommendation please" (system extracts 'phone' keyword, returns smartphone results)</li>
+  <li><strong>Multi-category request</strong> — "Noise cancelling headphones and a laptop for remote work" (system handles the first category detected)</li>
+</ul>
+
+<!-- ═════════════════════════════════════════════ 9. ETHICS ═══════════ -->
+<h1>9. Ethical &amp; Practical Considerations</h1>
+<span class="section-num">SECTION 09</span>
+
+<h2>Data Privacy</h2>
+<p>APEX stores <strong>zero personally identifiable information</strong>. The learning agent persists only aggregated preference signals (anonymous priority vector averages) and query text — no user accounts, no tracking cookies, no IP logging. The memory file (<code>user_memory.json</code>) is local-only and excluded from version control via <code>.gitignore</code>.</p>
+
+<p>In a production multi-user deployment, this file would be replaced with a per-session Redis cache with automatic TTL expiry (e.g., 7 days), ensuring GDPR compliance by design.</p>
+
+<h2>Bias in Recommendations</h2>
+<p>The system has two potential bias sources that are acknowledged and partially mitigated:</p>
+
+<table>
+  <tr><th>Bias Source</th><th>Description</th><th>Mitigation</th></tr>
+  <tr><td>Premium Brand Weighting</td><td><code>PREMIUM_BRANDS</code> dict gives higher brand scores to established manufacturers</td><td>Transparent scoring — users can see exact dimension scores; Pareto analysis surfaces non-premium high-value products</td></tr>
+  <tr><td>Dataset Coverage</td><td>51 products cannot represent the full market; missing brands will never appear</td><td>RapidAPI real-time integration supplements with live external data; dataset is manually reviewed for balance</td></tr>
+  <tr><td>Training Data Bias</td><td>Gemini may have inherent biases from its training corpus</td><td>LLM output is only used for narrative recommendation text; all factual scores are computed deterministically without LLM</td></tr>
+</table>
+
+<h2>Limitations of LLM-Based Systems</h2>
+<div class="callout callout-red">
+  <div class="callout-title">Known Limitations</div>
+  <ul>
+    <li><strong>Hallucination risk</strong> — Gemini may occasionally generate product specs that are inaccurate. APEX mitigates this by computing all scores deterministically; the LLM only generates advisory text, not factual data.</li>
+    <li><strong>Context window</strong> — Very long product lists may be truncated in the LLM prompt. The system limits the recommendation prompt to top-5 products.</li>
+    <li><strong>Prompt injection</strong> — Malicious user queries could attempt to manipulate LLM output. The preference extraction uses structured JSON output (Pydantic schema validation) rather than free text, reducing injection surface.</li>
+    <li><strong>Latency</strong> — Gemini API calls add 3–15 seconds to the pipeline. MockLLM fallback ensures a fast response is always available.</li>
+  </ul>
+</div>
+
+<h2>Risks of Inaccurate or Outdated Product Data</h2>
+<p>Product data becomes stale as manufacturers release new versions, discontinue products, and adjust pricing. APEX addresses this through:</p>
+<ul>
+  <li><strong>RapidAPI integration</strong> — live external product data supplements the static dataset</li>
+  <li><strong>Price trend simulation</strong> — the <code>/api/price-trend</code> endpoint models historical price decay so users understand current pricing in context</li>
+  <li><strong>Explicit data sourcing</strong> — recommendations include the product's source (local dataset vs. external API) so users know data freshness</li>
+  <li><strong>Clear disclaimers</strong> — the UI notes that prices are indicative and users should verify before purchase</li>
+</ul>
+
+<!-- ══════════════════════════════════════════ 10. DEPLOYMENT ═════════ -->
+<h1>10. Deployment &amp; Scalability</h1>
+<span class="section-num">SECTION 10</span>
+
+<p>APEX is deployment-ready with a complete <code>Dockerfile</code>, <code>Procfile</code>, <code>render.yaml</code>, and <code>railway.toml</code>. The application is containerized with Docker for consistent, reproducible deployments across cloud platforms.</p>
+
+<h3>Recommended Deployment Targets</h3>
+<table>
+  <tr><th>Platform</th><th>Suitable?</th><th>Reason</th></tr>
+  <tr><td>Railway</td><td class="td-ok">✅ Best Choice</td><td>Docker support, WebSocket, 1GB+ RAM, $5/month</td></tr>
+  <tr><td>Render</td><td class="td-ok">✅ Good Alternative</td><td>Native Python, WebSocket support, free tier available</td></tr>
+  <tr><td>Fly.io</td><td class="td-ok">✅ Suitable</td><td>Docker-based, generous free tier, WebSocket</td></tr>
+  <tr><td>PythonAnywhere</td><td class="td-na">❌ Not Suitable</td><td>No WebSocket on free/hacker tier; 512MB RAM insufficient for FAISS + SentenceTransformers</td></tr>
+  <tr><td>Vercel</td><td class="td-na">❌ Not Suitable</td><td>Serverless functions: no WebSocket, 10s timeout (pipeline needs 20–60s), no C extensions</td></tr>
+</table>
+
+<h3>Scalability Considerations</h3>
+<ul>
+  <li><strong>Single-worker constraint</strong> — FAISS index is loaded into process memory; multi-worker deployments would require a shared vector store (Pinecone, Weaviate)</li>
+  <li><strong>Pipeline latency</strong> — The 20–60s Gemini pipeline is best suited to asynchronous, non-concurrent usage; concurrent scaling requires a job queue (Celery + Redis)</li>
+  <li><strong>Dataset expansion</strong> — The FAISS index can scale to thousands of products with no code changes; only the embedding rebuild time increases linearly</li>
+</ul>
+
+<!-- ═══════════════════════════════════════════════ 11. RESULTS ════════ -->
+<h1>11. Results &amp; Conclusion</h1>
+<span class="section-num">SECTION 11</span>
+
+<p>APEX successfully demonstrates the practical application of multi-agent AI systems to a real-world consumer decision-making problem. The eight-agent pipeline cleanly separates concerns — routing, intent modeling, retrieval, normalization, scoring, quality control, recommendation generation, and adaptive learning — making each component independently testable and replaceable.</p>
+
+<h3>Assignment Objectives — Achievement Summary</h3>
+<table>
+  <tr><th>Objective</th><th>Status</th><th>Evidence</th></tr>
+  <tr><td>Multi-agent system design</td><td class="td-ok">✅ Exceeded</td><td>8 agents (requirement: ≥4)</td></tr>
+  <tr><td>LangGraph orchestration</td><td class="td-ok">✅ Complete</td><td>StateGraph with conditional edges, streaming</td></tr>
+  <tr><td>Real-world data sources</td><td class="td-ok">✅ Complete</td><td>51-product dataset + RapidAPI live integration</td></tr>
+  <tr><td>Vector database (RAG)</td><td class="td-ok">✅ Complete</td><td>FAISS + SentenceTransformers</td></tr>
+  <tr><td>Evaluation dataset</td><td class="td-ok">✅ Exceeded</td><td>60 queries (requirement: ≥50)</td></tr>
+  <tr><td>Error handling &amp; fallback</td><td class="td-ok">✅ Complete</td><td>3-tier LLM fallback, try/except everywhere</td></tr>
+  <tr><td>System architecture diagram</td><td class="td-ok">✅ Complete</td><td>architecture_diagram.html — print to PDF</td></tr>
+  <tr><td>Ethical considerations</td><td class="td-ok">✅ Complete</td><td>Section 9 — privacy, bias, limitations, data risk</td></tr>
+</table>
+
+<h3>Key Technical Achievements</h3>
+<ul>
+  <li>Pareto optimality analysis surfaces genuinely non-dominated product choices — a technique rarely seen in consumer recommendation systems</li>
+  <li>Real-time WebSocket streaming of per-agent pipeline events provides complete transparency into the AI decision process</li>
+  <li>MockLLM fallback generates product-specific advisory text by parsing real data from prompts — not generic placeholders — ensuring quality output even without API access</li>
+  <li>The adaptive learning agent builds a rolling preference model that personalizes future recommendations without requiring user accounts</li>
+  <li>Deterministic scoring (no LLM in the scoring layer) makes every recommendation auditable and reproducible</li>
+</ul>
+
+<h3>Future Enhancements</h3>
+<ul>
+  <li>Real-time price scraping from major retailers (Amazon, Best Buy) to replace simulated price trends</li>
+  <li>Multi-turn conversation with message history for iterative refinement ("Show me something lighter", "What about the one with the best camera?")</li>
+  <li>PostgreSQL or MongoDB backend to replace JSON file storage for multi-user production deployment</li>
+  <li>Pinecone or Weaviate vector store replacing FAISS for cloud-native, horizontally-scalable retrieval</li>
+  <li>A/B testing framework to compare recommendation strategies and optimize for user satisfaction</li>
+</ul>
+
+<!-- ═══════════════════════════════════════════════ REFERENCES ═════════ -->
+<h1>References</h1>
+<span class="section-num">REFERENCES</span>
+
+<ol>
+  <li>LangChain AI. (2024). <em>LangGraph: Building Stateful Multi-Actor Applications with LLMs.</em> <a href="https://langchain-ai.github.io/langgraph/">langchain-ai.github.io/langgraph</a></li>
+  <li>Johnson, J., Douze, M., &amp; Jégou, H. (2019). <em>Billion-scale similarity search with GPUs.</em> IEEE Transactions on Big Data. (FAISS library)</li>
+  <li>Reimers, N., &amp; Gurevych, I. (2019). <em>Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks.</em> EMNLP 2019.</li>
+  <li>Google DeepMind. (2024). <em>Gemini 2.0: Multimodal AI with Advanced Reasoning.</em> Google AI Blog.</li>
+  <li>Lewis, P. et al. (2020). <em>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.</em> NeurIPS 2020.</li>
+  <li>Chase, H. (2022). <em>LangChain: Building Applications with LLMs through Composability.</em> GitHub.</li>
+  <li>Deb, K., Pratap, A., Agarwal, S., &amp; Meyarivan, T. (2002). <em>A fast and elitist multiobjective genetic algorithm: NSGA-II.</em> IEEE Transactions on Evolutionary Computation. (Pareto optimality theory)</li>
+  <li>FastAPI Documentation. (2024). <em>Building APIs with Python FastAPI and WebSockets.</em> Sebastián Ramírez.</li>
+</ol>
+
+<br><br>
+<hr style="border-color:var(--border);margin:30px 0">
+<p style="text-align:center;font-size:9pt;color:var(--light);letter-spacing:.1em">
+  APEX — Intelligent Shopping Advisor &nbsp;|&nbsp; Ahmad Yasin &nbsp;|&nbsp;
+  University of Central Punjab &nbsp;|&nbsp; GEN-AI Assignment 2 &nbsp;|&nbsp; 2025<br>
+  <em style="font-size:8.5pt">Open this file in a browser → File → Print → Save as PDF for submission</em>
+</p>
+
+</div><!-- /page -->
+
+<div class="no-print" style="background:#1a1a1a;color:#666;text-align:center;padding:16px;font-family:monospace;font-size:11px">
+  💡 To export as PDF: Press <kbd>Ctrl+P</kbd> → "Save as PDF" → Paper: A4 → Margins: Default<br>
+  The report is approximately 8–10 pages when printed at 100% zoom on A4.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: apex-shopping-advisor
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python -c "from data_layer.vector_db import VectorDBStore; db=VectorDBStore('data_layer/dataset.json','data_layer/products.index','data_layer/metadata.json'); db.load_and_index()"
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT --workers 1
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: RAPIDAPI_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.0"

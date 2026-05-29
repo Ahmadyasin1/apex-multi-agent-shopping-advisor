@@ -1,0 +1,96 @@
+python : WARNING: All 
+log messages before 
+absl::InitializeLog() 
+is called are written 
+to STDERR
+At line:1 char:1
++ python test_e2e.py > 
+e2e_output.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARNING: All    
+ lo...itten to STDE    
+RR:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+I0000 00:00:1775369148.
+064586    2440 
+port.cc:153] oneDNN 
+custom operations are 
+on. You may see 
+slightly different 
+numerical results due 
+to floating-point 
+round-off errors from 
+different computation 
+orders. To turn them 
+off, set the 
+environment variable `T
+F_ENABLE_ONEDNN_OPTS=0`
+.
+WARNING: All log 
+messages before 
+absl::InitializeLog() 
+is called are written 
+to STDERR
+I0000 00:00:1775369150.
+250717    2440 
+port.cc:153] oneDNN 
+custom operations are 
+on. You may see 
+slightly different 
+numerical results due 
+to floating-point 
+round-off errors from 
+different computation 
+orders. To turn them 
+off, set the 
+environment variable `T
+F_ENABLE_ONEDNN_OPTS=0`
+.
+WARNING:tensorflow:From
+ C:\Users\ahmad\AppData
+\Local\Programs\Python\
+Python312\Lib\site-pack
+ages\tf_keras\src\losse
+s.py:2976: The name tf.
+losses.sparse_softmax_c
+ross_entropy is 
+deprecated. Please use 
+tf.compat.v1.losses.spa
+rse_softmax_cross_entro
+py instead.
+
+Running e2e test... Query: 'I want a relatively cheap laptop for a student'
+--- [AGENT] Supervisor ---
+Supervisor parsing error: Error calling model 'gemini-1.5-pro' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+--- Finished node: supervisor ---
+--- [AGENT] Preference ---
+Preference Agent error: Error calling model 'gemini-1.5-pro' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+--- Finished node: preference ---
+--- [AGENT] Retrieval ---
+--- Finished node: retrieval ---
+--- [AGENT] Enrichment ---
+Enrichment error on OfficeStation Pro: Error calling model 'gemini-1.5-pro' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+--- Finished node: enrichment ---
+--- [AGENT] Comparison ---
+--- Finished node: comparison ---
+--- [AGENT] Critique ---
+Critique Agent error: Error calling model 'gemini-1.5-pro' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+--- Finished node: critique ---
+--- [AGENT] Recommendation ---
+Recommendation Agent error: Error calling model 'gemini-1.5-pro' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+--- Finished node: recommendation ---
+
+
+=============== FINAL RESULT ===============
+
+We encountered an error generating your premium recommendation.
+
+============================================
+

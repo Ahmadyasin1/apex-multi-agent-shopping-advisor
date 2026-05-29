@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "project_name": "Intelligent Shopping Advisor - Elite Edition",
+    "author_level": "Top 1% AI Engineer",
+    "architecture": "Hierarchical Multi-Agent Cognitive System",
+    "deployment_modes": ["local_open_source", "hybrid_api", "full_api"],
+    "llm_support": {
+      "primary": ["mistral", "llama3", "mixtral"],
+      "premium_upgrade": ["claude-3-opus", "claude-3-sonnet"]
+    }
+  },
+
+  "core_philosophy": {
+    "design_principles": [
+      "Human-like reasoning with machine precision",
+      "Zero hallucination tolerance",
+      "Explainable AI first",
+      "Modular + scalable architecture",
+      "Cost-aware intelligent routing"
+    ]
+  },
+
+  "supervisor_agent": {
+    "role": "Master Orchestrator (Meta-Reasoning Controller)",
+    "responsibilities": [
+      "Analyze query complexity",
+      "Select optimal LLM (open-source vs Claude)",
+      "Route tasks dynamically",
+      "Monitor agent outputs",
+      "Trigger retries or corrections"
+    ],
+    "decision_logic": {
+      "simple_query": "use_open_source_model",
+      "complex_reasoning": "use_claude_api",
+      "budget_sensitive": "force_local_model"
+    }
+  },
+
+  "agents": {
+
+    "preference_agent": {
+      "role": "Cognitive Intent Analyzer",
+      "capabilities": [
+        "Deep semantic parsing",
+        "Implicit intent detection",
+        "Emotion-aware preference inference"
+      ],
+      "output_schema": {
+        "category": "string",
+        "budget": { "min": "number|null", "max": "number|null" },
+        "preferences": ["list"],
+        "latent_needs": ["inferred hidden needs"],
+        "priority_vector": {
+          "price": "0-1",
+          "performance": "0-1",
+          "brand": "0-1",
+          "durability": "0-1",
+          "innovation": "0-1"
+        },
+        "confidence_score": "0-1"
+      }
+    },
+
+    "retrieval_agent": {
+      "role": "Hybrid Data Intelligence Engine",
+      "sources": [
+        "local_json_dataset",
+        "vector_database_FAISS",
+        "optional_scraping_layer",
+        "mock_api_layer"
+      ],
+      "features": [
+        "semantic_search",
+        "hybrid_keyword_search",
+        "embedding_similarity",
+        "diversity_sampling"
+      ],
+      "output": {
+        "products": "top 15 candidates",
+        "retrieval_confidence": "score"
+      }
+    },
+
+    "enrichment_agent": {
+      "role": "Data Enhancement Agent",
+      "tasks": [
+        "Fill missing specs",
+        "Normalize product attributes",
+        "Estimate missing ratings",
+        "Generate synthetic insights if needed"
+      ]
+    },
+
+    "comparison_agent": {
+      "role": "Multi-Dimensional Decision Engine",
+      "techniques": [
+        "weighted_scoring",
+        "pareto_optimization",
+        "dominance_analysis"
+      ],
+      "output": {
+        "scored_products": [
+          {
+            "name": "",
+            "scores": {
+              "price": "0-10",
+              "performance": "0-10",
+              "features": "0-10",
+              "overall": "0-10"
+            }
+          }
+        ],
+        "pareto_front": "list",
+        "insights": "key tradeoffs"
+      }
+    },
+
+    "critique_agent": {
+      "role": "AI Auditor (Self-Correction Layer)",
+      "tasks": [
+        "Detect hallucinations",
+        "Validate logic consistency",
+        "Check bias",
+        "Improve explanations"
+      ],
+      "action": "revise_output_if_needed"
+    },
+
+    "recommendation_agent": {
+      "role": "Luxury-Level Advisor",
+      "style": "premium_consultant",
+      "output": {
+        "top_5": [
+          {
+            "rank": 1,
+            "product": "",
+            "why": "deep reasoning",
+            "pros": [],
+            "cons": [],
+            "ideal_for": "user persona"
+          }
+        ],
+        "alternative_strategy": "if user changes priorities",
+        "confidence_level": "0-1"
+      }
+    },
+
+    "learning_agent": {
+      "role": "Adaptive Memory System",
+      "features": [
+        "store user preferences",
+        "learn from past queries",
+        "improve future recommendations"
+      ]
+    }
+  },
+
+  "workflow_graph": {
+    "flow": [
+      "supervisor_agent",
+      "preference_agent",
+      "retrieval_agent",
+      "enrichment_agent",
+      "comparison_agent",
+      "critique_agent",
+      "recommendation_agent",
+      "learning_agent"
+    ],
+    "conditional_edges": {
+      "low_confidence": "retry_with_claude",
+      "missing_data": "trigger_enrichment",
+      "low_quality_output": "critique_revision_loop"
+    }
+  },
+
+  "rag_system": {
+    "enabled": true,
+    "embedding_model": "sentence-transformers",
+    "vector_db": "FAISS",
+    "chunking_strategy": "semantic",
+    "reranking": "cross_encoder"
+  },
+
+  "cost_optimization": {
+    "strategy": "hybrid_llm_routing",
+    "rules": [
+      "Use local models for 70% tasks",
+      "Use Claude only for reasoning-heavy tasks",
+      "Cache frequent queries"
+    ]
+  },
+
+  "evaluation_framework": {
+    "auto_testing": true,
+    "test_cases": 50,
+    "metrics": [
+      "precision",
+      "recall",
+      "latency",
+      "reasoning_quality"
+    ],
+    "self_evaluation_prompt": "Critically evaluate your own recommendation quality"
+  },
+
+  "ui_ux_layer": {
+    "type": "premium_dashboard",
+    "tools": ["streamlit", "react_optional"],
+    "features": [
+      "chat interface",
+      "product comparison table",
+      "interactive filters",
+      "confidence visualization",
+      "AI explanation panel"
+    ]
+  },
+
+  "deployment": {
+    "local": "ollama",
+    "cloud_optional": "huggingface_inference",
+    "api_upgrade": "claude_api_ready"
+  },
+
+  "killer_features": [
+    "Self-correcting AI (critique agent)",
+    "Hybrid LLM routing (cost + power)",
+    "Pareto optimal recommendations",
+    "Memory-based personalization",
+    "Explainable AI dashboard",
+    "RAG-powered retrieval"
+  ]
+}

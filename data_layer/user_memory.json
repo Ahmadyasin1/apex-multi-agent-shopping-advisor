@@ -1,0 +1,1621 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2026-04-06T11:30:38.284979",
+      "query": "Best gaming laptop under 2000 dollars",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.3,
+        "performance": 0.25,
+        "brand": 0.2,
+        "durability": 0.15,
+        "innovation": 0.1
+      },
+      "top_recommendation": "Microsoft Surface Laptop 5",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T15:40:14.062621",
+      "query": "best laptop under 1500 for video editing",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.3,
+        "performance": 0.25,
+        "brand": 0.2,
+        "durability": 0.15,
+        "innovation": 0.1
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T15:41:25.232142",
+      "query": "best wireless headphones under 300 for audiophiles",
+      "category": "headphones",
+      "budget_max": 300.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.3,
+        "performance": 0.25,
+        "brand": 0.2,
+        "durability": 0.15,
+        "innovation": 0.1
+      },
+      "top_recommendation": "Anker Soundcore Q45",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T15:42:53.350526",
+      "query": "Gaming laptop under $2000",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.3,
+        "performance": 0.25,
+        "brand": 0.2,
+        "durability": 0.15,
+        "innovation": 0.1
+      },
+      "top_recommendation": "Microsoft Surface Laptop 5",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T15:44:03.260757",
+      "query": "Best iPhone for photography",
+      "category": "smartphone",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.3,
+        "performance": 0.25,
+        "brand": 0.2,
+        "durability": 0.15,
+        "innovation": 0.1
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T16:52:09.088474",
+      "query": "best gaming laptop under 2000 dollars",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T16:53:34.161260",
+      "query": "wireless headphones under 300 for audiophiles",
+      "category": "headphones",
+      "budget_max": 300.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Anker Soundcore Q45",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T17:09:47.173436",
+      "query": "Best gaming laptop under $2000",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T17:43:53.798105",
+      "query": "Hello, can you hear me?",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T17:47:13.836291",
+      "query": "Gaming laptop.",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-06T20:17:20.245967",
+      "query": "Ultralight business laptop for travel under $1500",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-07T21:05:05.905330",
+      "query": "Best gaming laptop under $2000",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-07T21:06:16.823165",
+      "query": "Hello.",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-07T21:11:15.745850",
+      "query": "Best gaming laptop under $2000",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-07T23:44:51.160195",
+      "query": "Best gaming laptop under $2000 with RTX GPU",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-07T23:45:23.834790",
+      "query": "Best gaming laptop with RTX GPU under $2000 for 4K AAA games",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-08T00:07:49.933903",
+      "query": "Best laptop under $800 for college student with good battery life and reliability",
+      "category": "laptop",
+      "budget_max": 800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-08T00:08:37.146477",
+      "query": "Best laptop for video editing under 2000",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-08T00:09:01.972019",
+      "query": "Ultralight business laptop under $1500 for travel",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-08T00:09:55.285871",
+      "query": "Ultralight business laptop under $1500 for travel — additionally: What if I increase my budget by $200?",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-08T00:11:13.572985",
+      "query": "Hello, can you hear me?",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T04:47:28.427031",
+      "query": "I want a relatively cheap laptop for a student",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T04:50:55.013153",
+      "query": "Best smartphone with best camera under $1000",
+      "category": "smartphone",
+      "budget_max": 1000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T04:53:24.319816",
+      "query": "Best smartphone with best camera under $1000",
+      "category": "smartphone",
+      "budget_max": 1000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:05:04.654994",
+      "query": "Best gaming laptop with RTX GPU under $2000 for 4K AAA games",
+      "category": "laptop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:39:05.421503",
+      "query": "Best laptop under $500 for a college student",
+      "category": "laptop",
+      "budget_max": 500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:39:17.032139",
+      "query": "Ultralight business laptop under $1500 for travel",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:39:22.461181",
+      "query": "Gaming laptop with RTX 4080 or better, budget $2500",
+      "category": "laptop",
+      "budget_max": 2500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "MSI Prestige 15",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:39:38.697396",
+      "query": "Ultralight laptop for business travel under $1500",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:39:56.398135",
+      "query": "Best MacBook for professional video editing",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:40:14.206493",
+      "query": "Laptop for AI and machine learning research",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:40:31.122989",
+      "query": "Cheap laptop just for web browsing and email under $400",
+      "category": "laptop",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:40:48.370202",
+      "query": "Best 2-in-1 convertible laptop for graphic designers",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:41:05.366079",
+      "query": "Laptop with the best OLED display for media consumption",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:41:22.408505",
+      "query": "I need a laptop for programming — no gaming, just coding $1200",
+      "category": "laptop",
+      "budget_max": 1200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:41:39.313951",
+      "query": "Best laptop with longest battery life for remote work $1800",
+      "category": "laptop",
+      "budget_max": 1800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:41:53.732719",
+      "query": "Best Android phone under $400",
+      "category": "smartphone",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Motorola Edge 40 Neo",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:41:54.024797",
+      "query": "Best laptop under $500 for a college student",
+      "category": "laptop",
+      "budget_max": 500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:09.185611",
+      "query": "Gaming laptop with RTX 4080 or better, budget $2500",
+      "category": "laptop",
+      "budget_max": 2500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "MSI Prestige 15",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:10.048118",
+      "query": "iPhone with the best camera for photography",
+      "category": "smartphone",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:25.683793",
+      "query": "Ultralight laptop for business travel under $1500",
+      "category": "laptop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:25.874150",
+      "query": "Gaming phone with highest refresh rate under $1200",
+      "category": "laptop",
+      "budget_max": 1200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:41.217499",
+      "query": "Smartphone with the best battery life",
+      "category": "smartphone",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:42.321469",
+      "query": "Best MacBook for professional video editing",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:57.818060",
+      "query": "Laptop for AI and machine learning research",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:42:57.974683",
+      "query": "Affordable 5G phone for a first-time buyer under $350",
+      "category": "laptop",
+      "budget_max": 350.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:13.049319",
+      "query": "Best phone for Leica quality photography under $1000",
+      "category": "laptop",
+      "budget_max": 1000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:13.922482",
+      "query": "Cheap laptop just for web browsing and email under $400",
+      "category": "laptop",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:29.524840",
+      "query": "Best 2-in-1 convertible laptop for graphic designers",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:29.566732",
+      "query": "Phone with best AI features and clean software experience",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:45.552029",
+      "query": "Compact small-form-factor phone under $500",
+      "category": "laptop",
+      "budget_max": 500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:43:45.634534",
+      "query": "Laptop with the best OLED display for media consumption",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:00.893760",
+      "query": "I need a laptop for programming — no gaming, just coding $1200",
+      "category": "laptop",
+      "budget_max": 1200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:01.892183",
+      "query": "Flagship phone with S Pen stylus for note-taking",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:17.387224",
+      "query": "Best laptop with longest battery life for remote work $1800",
+      "category": "laptop",
+      "budget_max": 1800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:17.438935",
+      "query": "Most uniquely designed and distinctive smartphone under $700",
+      "category": "smartphone",
+      "budget_max": 700.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:33.118511",
+      "query": "Best Android phone under $400",
+      "category": "smartphone",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Motorola Edge 40 Neo",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:33.837762",
+      "query": "Best noise cancelling headphones for flights",
+      "category": "headphones",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:48.887459",
+      "query": "iPhone with the best camera for photography",
+      "category": "smartphone",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:44:49.403039",
+      "query": "Budget wireless earbuds under $80",
+      "category": "headphones",
+      "budget_max": 80.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Anker Soundcore Q45",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:05.050217",
+      "query": "Best headphones for work from home video calls under $500",
+      "category": "headphones",
+      "budget_max": 500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:05.252246",
+      "query": "Gaming phone with highest refresh rate under $1200",
+      "category": "laptop",
+      "budget_max": 1200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:20.345205",
+      "query": "Smartphone with the best battery life",
+      "category": "smartphone",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:21.441263",
+      "query": "Audiophile open-back headphones for home listening under $700",
+      "category": "headphones",
+      "budget_max": 700.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:36.921399",
+      "query": "Gaming headset with the best microphone quality under $400",
+      "category": "laptop",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:37.224848",
+      "query": "Affordable 5G phone for a first-time buyer under $350",
+      "category": "laptop",
+      "budget_max": 350.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:52.818419",
+      "query": "Best phone for Leica quality photography under $1000",
+      "category": "laptop",
+      "budget_max": 1000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Acer Swift 3 Slim",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:45:53.674409",
+      "query": "Best earbuds for iPhone users",
+      "category": "headphones",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:46:29.962282",
+      "query": "Best Samsung Galaxy earbuds for Android users under $250",
+      "category": "headphones",
+      "budget_max": 250.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Anker Soundcore Q45",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:46:47.504121",
+      "query": "Waterproof earbuds for gym and running under $200",
+      "category": "headphones",
+      "budget_max": 200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Anker Soundcore Q45",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:47:05.145208",
+      "query": "Best gaming desktop under $3000",
+      "category": "desktop",
+      "budget_max": 3000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple iMac 24\" M3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:47:22.583836",
+      "query": "Home office desktop for a family under $800",
+      "category": "desktop",
+      "budget_max": 800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Lenovo IdeaCentre 3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:47:39.412130",
+      "query": "Best iMac for home creative work under $2000",
+      "category": "desktop",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Lenovo IdeaCentre 3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:47:57.019160",
+      "query": "Workstation desktop for 3D rendering and video production",
+      "category": "desktop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple iMac 24\" M3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:48:13.870485",
+      "query": "Small form factor compact desktop PC under $1500",
+      "category": "desktop",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Lenovo IdeaCentre 3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:48:31.501688",
+      "query": "Best tablet for digital art and drawing with a stylus $1500",
+      "category": "tablet",
+      "budget_max": 1500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy Tab S9 Ultra",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:48:48.683755",
+      "query": "Affordable tablet for kids and streaming under $200",
+      "category": "tablet",
+      "budget_max": 200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Amazon Fire HD 10 Plus",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:49:04.850297",
+      "query": "iPad alternative for Android users under $1200",
+      "category": "smartphone",
+      "budget_max": 1200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy A54",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:49:22.910302",
+      "query": "Windows tablet that runs full desktop software under $1800",
+      "category": "desktop",
+      "budget_max": 1800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Lenovo IdeaCentre 3",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:49:39.667715",
+      "query": "Best productivity tablet for note-taking at university $800",
+      "category": "tablet",
+      "budget_max": 800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Amazon Fire HD 10 Plus",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:49:57.083104",
+      "query": "Best smartwatch for marathon runners and triathletes",
+      "category": "smartwatch",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy Watch 7",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:50:14.940109",
+      "query": "Affordable smartwatch with heart rate and sleep tracking $200",
+      "category": "smartwatch",
+      "budget_max": 200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Fitbit Charge 6",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:50:31.287671",
+      "query": "Apple Watch for comprehensive health monitoring",
+      "category": "smartwatch",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy Watch 7",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:50:48.551537",
+      "query": "Smartwatch with the longest battery life",
+      "category": "smartwatch",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy Watch 7",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:51:06.062469",
+      "query": "Best Samsung smartwatch for Galaxy phone users under $400",
+      "category": "smartwatch",
+      "budget_max": 400.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Samsung Galaxy Watch 7",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:51:22.367421",
+      "query": "Best mirrorless camera for professional portrait photography",
+      "category": "camera",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Nikon Z30",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:51:40.134567",
+      "query": "Action camera for extreme sports and underwater use under $500",
+      "category": "camera",
+      "budget_max": 500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "GoPro HERO 13 Black",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:51:57.176847",
+      "query": "Best camera for YouTube vlogging beginners under $800",
+      "category": "camera",
+      "budget_max": 800.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "GoPro HERO 13 Black",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:52:14.828228",
+      "query": "Retro-style compact camera with film simulation under $2000",
+      "category": "camera",
+      "budget_max": 2000.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Nikon Z30",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:52:31.908900",
+      "query": "Camera under $2500 for hybrid photo and video work",
+      "category": "camera",
+      "budget_max": 2500.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Nikon Z30",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:52:48.825763",
+      "query": "I need the absolute best device ever created — no budget",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:53:06.456314",
+      "query": "Something for gaming AND working AND traveling — all in one",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:53:23.379519",
+      "query": "Phone with incredible camera but extremely cheap under $200",
+      "category": "camera",
+      "budget_max": 200.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "None",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:53:39.657590",
+      "query": "Headphones for total silence but also incredible music quality",
+      "category": "headphones",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:53:57.266147",
+      "query": "asdfjkl; phone recommendation please",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:54:14.590254",
+      "query": "Best product under $50",
+      "category": "laptop",
+      "budget_max": 50.0,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "None",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:54:32.325852",
+      "query": "I want a laptop for gaming but also need it ultra light",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:54:49.213717",
+      "query": "Recommend something without telling me what it is",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:55:06.729940",
+      "query": "What is the cheapest laptop with the best performance?",
+      "category": "laptop",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Budget Student Chromebook 14",
+      "critique_passed": true
+    },
+    {
+      "timestamp": "2026-04-09T05:55:24.277405",
+      "query": "Noise cancelling headphones and a laptop for remote work",
+      "category": "headphones",
+      "budget_max": null,
+      "complexity": "complex",
+      "priority_vector": {
+        "price": 0.4,
+        "performance": 0.2,
+        "brand": 0.15,
+        "durability": 0.1,
+        "innovation": 0.15
+      },
+      "top_recommendation": "Apple AirPods Pro 2",
+      "critique_passed": true
+    }
+  ],
+  "preference_history": {
+    "price": 0.3684,
+    "performance": 0.2113,
+    "brand": 0.1634,
+    "durability": 0.1154,
+    "innovation": 0.1417
+  },
+  "category_counts": {
+    "unknown": 4,
+    "headphones": 18,
+    "laptop": 64,
+    "smartphone": 16,
+    "camera": 9,
+    "smartwatch": 7,
+    "tablet": 5,
+    "desktop": 8
+  }
+}
